@@ -1,0 +1,1386 @@
+/* Medium devices (desktops, 992px and up) */
+	@media (min-width: 992px) { 
+		
+
+		/***------  Standard settings -------**/
+		.navbar-collapse{/*Removes npadding left and right 15*/
+			
+			}
+			.logo-text{
+				font-size:22px;
+				margin-bottom:10px;
+				text-shadow: 1px 1px #007700;
+				font-family: 'Candal', sans-serif;
+				position:relative;
+				bottom:10px;
+				
+			}
+			 object.logo {
+				fill: currentColor;
+				color:green;
+				transition: .6s ease all;
+				width:50px; 
+				height:50px; 
+				position:relative; 
+				top:10px;
+			}
+			.navbar-nav {/**margin: 7.5px -15px;*/
+			    
+			}
+			.no-padding{
+				padding:80px;
+				padding-left:15px;
+				padding-right:15px;
+			}
+			.width-100{
+
+				width:auto;
+			} 
+
+			.carousel-position{
+				position:relative;
+				 top:0px;
+				height:550px;
+			}	
+
+			.screen-text{
+				position:absolute; top:40%;left:10px;z-index:400;
+			}
+		/**  SEARCH */
+		/*----- Styling search input fields------------*/
+				.search-placeholder{
+					position:absolute;
+					top:10px;
+					right:180px;
+				}
+		/** Search***/
+	
+
+/*======================================================== FRONT PAGE BUTTON SECTION =========== ends @ line ~356=======================================================================================================*/
+	/*-- "btn-large" Standard button settings  --*/
+		.btn-large 
+		{
+		  padding: 12px 20px;
+		  font-size: 18px;
+		  line-height: normal;
+		}
+	/* ———————— "btn-inverse" Classic White button ———————————*/
+		.btn, 
+		.btn-inverse, 
+		.btn-inverse .btn-inverse--alt:hover {
+		  background-color: whitesmoke;
+		  border: 1px solid #c2c7d0;
+		  border-bottom-color: #b4bac5;
+		  border-radius: 3px;
+		  box-shadow: 0 1px 3px rgba(0,0,0,0.08),inset 0 -1px 4px rgba(151,159,175,0.2);
+		  box-sizing: border-box;
+		  cursor: pointer;
+		  display: inline-block;
+		  padding: 10px 15px;
+		  margin-bottom: 0;
+		  font-size: 14px;
+		  font-weight: 500;
+		  line-height: 18px;
+		  margin-bottom: 0;
+		  padding: 10px 15px;
+		  position: relative;
+		  line-height: 18px;
+		  color: #39424e;
+		  text-align: center;
+		  text-decoration: none !important;
+		  vertical-align: center;
+		  
+		}
+		
+		.btn-green-small{
+		  margin:3px;
+		  background-color:rgb(208,240,203);
+		  color: #39424e;
+		}
+		.btn-green-small:hover, .btn-green-small:active{
+		 background-color:rgb(163,222,160);
+		 color: rgb(11,99,6);
+		}
+	/* ———————— "btn-primary" Green background button with white font ———————————	*/
+		.btn-primary:link, .btn-primary:visited, .btn-primary:active{
+			  color: #fff;
+			  background: #3ed273;
+			  z-index:60;
+			  cursor:pointer;
+			  -webkit-text-shadow: none;
+			  -moz-text-shadow: none;
+			  -ms-text-shadow: none;
+			  -o-text-shadow: none;
+			  text-shadow: none;
+			  border-color: #2ec866;
+			}
+			a.btn-primary:hover{
+				background-color: #2ec766 !important;
+				transition: opacity 0.3s ease !important;
+				cursor:pointer;
+			}
+	/* ———————— "btn-green" Transparent background with green borders ————————*/
+		/*============ green button top menu positioning ============*/
+			.navbar-right .btn-green{
+				margin-left: 5px;
+				margin-right:5px;
+			}
+		/*============ dispaly On/Off depending on resolution ============*/
+			.btn-green-display{
+				display:block !important;
+			}
+			.btn-green-mini{
+				display:none !important;
+			}
+		.btn-green, 
+		.btn-green:link, 
+		.btn-green:visited, 
+		.btn-green:active, 
+		.dropdown-menu > li > a.btn-green:link , 
+		.dropdown-menu > li > a.btn-green
+			{
+			border:1px solid #2ec866 !important;
+			color:#2ec866 !important;
+			background:transparent;
+			display: inline-block;
+			margin-top:15px;
+			padding-top:8px;
+			padding-bottom:8px;
+			transition: .6s color ease;
+			}
+		.btn-green:hover,
+		.dropdown-menu > li > a.btn-green:hover{
+			background: #2ec866 !important;
+			color: white!important;
+			transition: 0.6s color ease;
+		}
+/*-------------------------------------------------------- END OF FRONT PAGE BUTTON SECTION ----------starts @ line ~263----------------------------------------------------------------------------------------------*/
+
+		/*-- Container for the text in the center of the promo screen --*/
+		.container--flex{
+			width: 100%;
+			font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande", sans-serif;
+			margin: 10% auto !important;
+			text-align:center;
+			color:white;
+		  	 	
+		}
+		.white-content{
+			text-align:center;
+			background-color:#39424e;
+			padding:20px;
+			border-radius:5px;
+			opacity:0.9;
+			margin-top:0px;
+			position:absolute;
+			top:150px;
+		}
+		.white-content h1{
+			text-align:center;
+			font-size: 2em;
+			color:white;
+		}
+		.white-content p{
+			font-size: 1.5em;
+			color:white;
+		}
+		.position1{
+
+		}
+
+	/*-- Start Frontpage Navigation bar --*/
+		.static-topbar {
+		  background: #39424e;
+		  border-bottom: 3px solid #2ec866;
+		  position: relative;
+		  top: 0;
+		  width: 100%;
+		  z-index: 1039;
+		}
+		.navbar-default{
+			background: #39424e;
+			border:none;
+			margin: auto 0px;
+		}
+		.static-home-nav {
+	
+		  float: left !important;
+		  text-align: right;
+		  width:50%;
+
+		}
+		.static-link{
+		  color: #2ec866;
+		  cursor: pointer;
+		  font-size: .9em;
+		  font-weight: 600;
+		  display: inline-block;
+		  padding: 25px 20px;
+		  margin: 1px 0;
+		  position: relative;
+		}
+		.navbar-default .navbar-nav>li>a.static-link{
+		  color: white;
+		  cursor: pointer;
+		  font-size: .9em;
+		  font-weight: 600;
+		  display: inline-block;
+		  padding: 25px 20px;
+		  margin: 1px 0;
+		  position: relative;
+		   
+		}
+
+		.navbar-default .navbar-nav>li>a.static-link:focus, .navbar-default .navbar-nav>li>a.static-link:hover{
+		 	color: #2ec866 !important;
+		 	 transition: 0.3s color ease;
+		 }
+		 .navbar-default .navbar-nav>.active>a.static-link, .navbar-default .navbar-nav>.active>a.static-link:focus, .navbar-default .navbar-nav>.active>a.static-link:hover {
+		  color: #2ec866 !important;
+		  background: #232931;
+		  transition: 0.3s color ease;
+		}
+		.navbar-right{
+			display:inline-block;
+			position:absolute;
+			right:25px;
+		}
+		.navbar-default .navbar-nav>.open>a:hover {
+		  color: #555;
+		   background: #232931;
+		}
+		.navbar-default .navbar-nav>.open>a {
+		  color: #555 !important;
+		   background: #232931 !important;
+		}
+
+		.dropdown-menu>li>a {
+		  display: block;
+		  background: #39424e;
+		  color:white;
+		  padding: 3px 20px;
+		  clear: both;
+		  font-weight: 400;
+		  white-space: nowrap;
+		}
+		.dropdown-menu>li>a:hover {
+		  display: block;
+		  background: #39424e;
+		  color:#2ec866;
+		  padding: 3px 20px;
+		  clear: both;
+		  font-weight: 400;
+		  
+		  transition: 0.3s color ease;
+		  white-space: nowrap;
+		}
+		.dropdown-menu .divider {
+		  height: 1px;
+		  margin: 9px 0;
+		  overflow: hidden;
+		   background-color:  #2ec866;
+		}
+		
+
+				
+		.dropdown-menu>li>a {
+		  display: block;
+		  background: #39424e;
+		  color:white !important;
+		  padding: 3px 20px;
+		  clear: both;
+		  font-weight: 400;
+		  white-space: nowrap;
+		  transition: 0.3s color ease !important;
+		}
+		.dropdown-toggle{
+			transition: 0.3s color ease !important;
+		}
+
+		.dropdown-menu>li>a:hover {
+		  display: block;
+		  background: #39424e !important;
+		  color:#2ec866 !important;
+		  padding: 3px 20px;
+		  transition: 0.3s color ease !important;
+		  white-space: nowrap;
+		}
+		#btn-option{
+			display:block;
+		}
+	/*-- Front page green buttons --*/
+			.btn-green, 
+			.btn-green:link, 
+			.btn-green:visited, 
+			.btn-green:active , 
+			.dropdown-menu > li > a.btn-green:link , 
+			.dropdown-menu > li > a.btn-green{
+				border:1px solid #2ec866 !important;
+				color:#2ec866 !important;
+				background:transparent;
+				display: inline-block;
+				margin-top:15px;
+				padding-top:8px;
+				padding-bottom:8px;
+				margin-right:10px;
+				transition: .6s color ease;
+			}
+			.btn-green:hover{
+			  background: #2ec866 !important;
+			  color: white!important;
+			  transition: 0.6s color ease;
+			}
+
+			.dropdown-menu > li > a.btn-green:hover{
+			  background: #2ec866 !important;
+			  color: white!important;
+			  transition: 0.6s color ease;
+			}
+			.btn-green-display{
+				display:none !important;
+			}
+			.btn-green-mini{
+				display:block !important;
+			}
+	/*-- Button END --*/
+
+	/*-- Front page promotional video --*/
+		.hr-home-hero {
+			display:none;
+		}
+
+	/*-- Front page testimonials under the slider --*/
+		.testimonials {
+		  width: 90%;
+		  height:auto;
+		}
+		.fill-dark {
+		  background: #39424e;
+		    color: #fff;
+		}
+		.hr-home-herosub{
+			background-color: rgb(57, 66, 78);
+			padding:10px !important;
+		}
+		.hr-home-herosub q {
+		  font-size: 1.25em;
+		}
+
+		.hr-home-herosub:before {
+		  height: 75px;
+		  width: 75px;
+		  content: '';
+		  display: inline-block;
+		  color: white;
+		  background: #39424e;
+		  box-sizing: border-box;
+		  padding-top: 15px;
+		  text-align: center;
+		  z-index:60;
+		}
+		/*-- The "" before and after the testimonials peach --*/
+			.hr-home-herosub q:before {
+			  background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-left.png");
+			  margin-right: 10px;
+			  
+			}
+			.hr-home-herosub q:after {
+			  background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-right.png");
+			  margin-right: 10px;
+			  
+			}
+
+			.hr-home-herosub q:before, .hr-home-herosub q:after {
+			  content: '';
+			  display: inline-block;
+			  height: 16px;
+			  width: 24px;
+			}
+
+	/*-- Green tilted sector --*/
+		.hr-domains {
+			margin-top:5em;
+		  padding-top: 2em;
+		  padding-bottom: 40em;
+		  width:100%;
+		  height:100% !important;
+		  
+		  background-image: url("https://hrcdn.net/hackerrank/assets/static/green-bg.jpg");
+		    background-size: 100% auto;
+		}
+		
+		.hr-domains-cards ul{
+			min-height:auto;
+			list-style: none;
+			
+		}
+		.block-center{
+			color: white;
+			margin: 0.5em auto !important;
+		}
+		/*-- Single article PopOut --*/
+			/*-- main article style + animation--*/
+				.hr-landing-card-details {
+					background: white;  
+					
+					color: #f65039;
+					height:auto;
+					
+
+				}
+				.hr-landing-card-details {
+				  box-sizing: border-box;
+				  border: 2px solid white;
+				  min-width:150px !important;
+				  max-width:230px !important;
+				  margin-top:20px;
+				  padding:0.5em;
+				  padding-bottom:0px;
+				  border-radius: 10px;
+				  text-align: center;
+				  color:#979faf;
+				  cursor:pointer;
+				  background: white;
+				  z-index: 4;
+				  min-height:230px;
+					text-align: center;
+					-webkit-backface-visibility: hidden;
+				  
+				}
+			/*-- H5 tag header style animation --*/
+				.hr-domain-card-details h5{
+					font-size: 1.3em;
+					color:#979faf;
+					margin-bottom: 1.5em;
+					
+				}
+				.hr-domain-card-details h5 {
+				    color: #f65039;
+				    font-size: 1em;
+				    font-weight: bold;
+				    
+				}
+			/*-- svg tag style animation --*/
+				.hr-landing-card-details  svg
+				{
+					margin-bottom: 0.1em;
+					fill: #f65039; 
+					height:80px;
+					width:80px;
+					
+				}
+				
+			/*-- p tag style animation --*/
+				.hr-landing-card-details  p{
+				display:none;
+				font-size: 0.8em;
+				color:#979faf;
+				}
+				.hr-landing-card-details  p{
+				display:inline-block;
+				color:#f65039;
+				
+				}
+
+			.hr-leaderboard:before, .hr-home-mission:after, .hr-domains:after, .hr-leaderboard:after {
+			    content: '';
+			    height: 10em;
+			    position: absolute;
+			    left: -25%;
+			    transform-origin: 0 0;
+			    width: 150%;
+			    
+			    z-index: -1;
+			}
+			.hr-domains-cards {
+			    width: 100%;
+			 	box-sizing:content-box;
+			   
+			    padding: 0px !important;
+				height:231px;
+				margin-bottom:0px; 
+			}
+	/*-- Green tilted sector END--*/
+		.hr-domains {
+			margin-top:5em;
+		  padding-top: 2em;
+		  padding-bottom: 22em;
+		  width:100%;
+		  height:100% !important;
+		  
+		  background-color: #39424e;
+		}
+		
+			
+		li.notification{
+			position:relative;
+			left:20px;
+		}
+
+
+
+
+/*======================================================== Modal Window (Login/Register) =========== ends @ line ~=======================================================================================================*/
+	/*-- Positioning Overlay backdrop--*/
+		.modal-above{
+			z-index:1050 !important;
+		}
+		.modal-dialog{
+			   
+			    
+		}
+		.modal-backdrop, .hr-dialog, .modal-backdrop.fade.in, .fade.in.hr-dialog {
+		    opacity: 1;
+		    transition: color 1.3s ease 0s;
+		}
+		.modal-backdrop, .hr-dialog {
+		    position: relative;
+		    top: 0px;
+		    right: 0px;
+		    bottom: 0px;
+		    left: 0px;
+		    background-image: url("../images/hr-dialog-border.png");
+		    height: 100%;
+		    width: 100%;
+		    z-index: 1040;
+		}
+	/*-- ".hr-dialog" Positioning Modal in the window--*/
+		/*———————— Hr-dialog general settings ————————*/
+			.hr-dialog .hr-dialog-border {
+			    padding: 5px;
+			}
+			.hr-dialog-body .homepage_admin {/*--COMMENT:-- positiioning the content of the dialog inside itself*/
+			    border: 1px solid #C2C7D0;
+			    margin-bottom: 5px;
+			    margin-top: 70px;
+			}
+			.homepage_admin {/*--COMMENT:-- making it fit inside itself*/
+			    background: #FFF none repeat scroll 0% 0%;
+			    width: auto;
+			    margin: 60px auto 30px;
+			    padding: 30px;
+			    padding-top:0px;
+			    position: relative;
+			}
+		/*———————— Hr-dialog-header ————————*/
+			.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-header {
+			    color: #39424E;
+			    font-weight: bold;
+			    line-height: 1em;
+			    background: #F8F9FA none repeat scroll 0% 0%;
+			    padding: 15px 10px;
+			    min-height: 10px;
+			    border-bottom: 1px solid #C2C7D0;
+			}
+			.hr-dialog-header a{
+				transition: all 0.3s ease 0.1s;
+				-webkit-transform: translateZ(0);
+			}
+			.hr-dialog-header button i{
+				position:relative;
+				top:-10px;
+			}
+			.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-header a.close i {
+			    top: -5px;
+			}
+		/*———————— Hr-dialog-body ————————*/
+			/*== Genral settings==*/
+				.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-body {
+				    padding: 10px;
+				    color: #39424E;
+				    background: #FFF none repeat scroll 0% 0%;
+				}
+			/*== ".btn-primary:not(.btn-flat)"  login and register buttons==*/
+				.btn-primary:not(.btn-flat), 
+				.btn-green:not(.btn-flat), 
+				.btn-inverse:active .btn-inverse.active:not(.btn-flat), 
+				.btn-green:not(.btn-flat), 
+				.btn-inverse:active .btn-inverse.active:not(.btn-flat) {
+				    border-color: #088837 #088837 #007827;
+				    opacity: 0.8;
+				    background-color: #2EC866;
+				    color:white;
+				    font-weight: bold;
+				    transition: all 0.3s ease 0.1s;
+				    background-image: -moz-linear-gradient(center top , #2EC866, #29B35B);
+				    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 
+				    			0px 1px 1px rgba(255, 255, 255, 0.1) inset, 
+				    			0px -1px 4px rgba(32, 138, 70, 0.3) inset;
+				}
+				.btn-primary:not(.btn-flat):hover{
+					background-color: #1DB755;  
+					opacity: 1;
+					transition: all 0.3s ease 0.1s;
+				}
+		/*———————— Hr-dialog-footer ————————*/
+			/*== General footer settings ==*/
+				.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-footer {
+				    text-align: right;
+				    padding: 0px;
+				    background: #FFF none repeat scroll 0% 0%;
+				}
+			/*== Social buttons settings ==*/
+				.btn-google, .btn-google:hover, .btn-google:active {
+				    background: #DD4B39 none repeat scroll 0% 0%;
+				    color: #FFF;
+				}
+				.btn-social {
+				    display: inline-block;
+				    padding: 0px 10px 0px 0px;
+				    height: 40px;
+				    border: medium none;
+				    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+				    text-align: left;
+				}
+				.btn-facebook, .btn-facebook:hover, .btn-facebook:active {
+				    background: #3B5998 none repeat scroll 0% 0%;
+				    color: #FFF;
+				}
+				.btn-twitter, .btn-twitter:hover, .btn-twitter:active {
+				    background: #55ACEE none repeat scroll 0% 0%;
+				    color: #FFF;
+				}
+				.btn-social i {
+				    background: rgba(0, 0, 0, 0.075) none repeat scroll 0% 0% padding-box;
+				    display: inline-block;
+				    padding: 0px 4px 0px 8px;
+				    margin-right: 8px;
+				    border-radius: 5px 0px 0px 5px;
+				    top: 0px;
+				    line-height: 40px;
+				}
+				.homepage_signupgroup--social{
+					position:relative;
+					top:-100px;
+				}
+				.homepage_logingroup--social{
+					position:relative;
+					top:20px;
+				}
+	/*-- Shared for both tabs content --*/
+		.alert.error, 
+		.error.message, 
+		.error.notification, 
+		.alert.alert-error, 
+		.alert-error.message,
+		.message.error, 
+		.alert-error.notification {
+		    background: rgba(246, 80, 57, 0.05) none repeat scroll 0% 0%;
+		    border-color: #F65039;
+		    color: #F1270B;
+		}
+		.alert{
+			margin-top:5px;
+			margin-bottom:2px;
+		}
+		.formgroup
+		 {
+
+		    margin-bottom: 1px;
+		    margin-top: 1px;
+		}
+		.boundT {
+			margin-top: 2px;
+			padding-top: 2px;
+			padding-bottom: 1px;
+			font-size: 16px;
+			color:#979FAF;
+		    border-top: 1px solid #C2C7D0;
+		}
+	/*-- Just tabs for switching--*/
+		ul.horizontal li, ol.horizontal li {
+		    display: inline;
+		}
+		.homepage_admin .login_tab .toggle.active {
+		    border-bottom: 1px solid #FFF;
+		    transition: all 0.6s ease 0.3s;
+		    background: #FFF none repeat scroll 0% 0%;
+		    z-index: 20;
+		}
+		.homepage_admin .login_tab .login-toggle.active {
+			transition: all 0.6s ease 0.3s;
+		    box-shadow: -2px -1px 3px rgba(0, 0, 0, 0.05);
+		}
+		.homepage_admin .login_tab .toggle a {
+		    position: absolute;
+		    top: 0px;
+		    left: 0px;
+		    right: 0px;
+		    bottom: 0px;
+		    line-height: 60px;
+		    color: #979FAF;
+		}
+		.homepage_admin .login_tab .toggle {
+	    position: absolute;
+	    top: -80px;
+	    font-family: "Whitney SSm A","Whitney SSm B",verdana,"Lucida Grande",sans-serif;
+	    padding: 20px 20px;
+	    width: 255px;
+	    height: 80px;
+	    font-size: 20px;
+	    font-weight: 700;
+	    color: #444;
+	    text-align: center;
+	    border: 1px solid #C2C7D0;
+	    background: #FAFAFA none repeat scroll 0% 0%;
+	    z-index: 10;
+	    transition: all 0.6s ease 0.3s;
+		}
+	/*-- Login tab settings --*/
+		.homepage_admin .login_tab .login-toggle {/*-- COMMENT: Positions the tabs fo they align with the border body --*/
+		    right: -1px;
+		}
+	/*-- Sign up tab settings --*/
+		.homepage_admin .login_tab .signup-toggle {
+		    left: -1px;
+		}
+		.homepage_signupgroup--legacy{
+			margin-top:5px !important;
+		}
+	/*-- .btn-link --*/
+		.btn-text, 
+		.btn-link {
+		    background: transparent none repeat scroll 0% 0%;
+		    border: medium none;
+		    box-shadow: none;
+		    color: #979FAF;
+		    cursor: pointer;
+		    font-size: inherit;
+		    font-weight: inherit;
+		    padding: 10px 0px;
+		    text-decoration: underline !important;
+		   
+		}
+		.btn-link:focus, 
+		.btn-link:hover {
+		    color: #23527C;
+		    text-decoration: underline;
+		    background-color: transparent;
+		    
+		}
+		.signup-button{
+			z-index:80;
+		}
+	/*-- INput Positioning --*/
+		.legacy-form .rose input {
+		    display: block;
+		    padding: 10px 10px 10px 30px;
+		    height: auto;
+		    z-index: 80;
+		   
+
+		}
+
+		.legacy-form .rose div.first-left{
+			margin-top:40px;
+			position: relative;
+		   left:-45px;
+		      z-index: 70;
+		   
+		}
+		.legacy-form .rose div.first-right{
+			position: relative;
+		    margin-top:40px;
+		   left:25px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.left{
+			position: relative;
+		    top: -28px;
+		   left:-45px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.right{
+			position: relative;
+		    top: -28px;
+		   left:25px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.last-left{
+			position: relative;
+		    top: -56px;
+		   left:-45px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.last-right{
+			position: relative;
+		    top: -56px;
+		   left:25px;
+		   z-index: 70;
+		}
+		#recaptcha_widget_div{
+			position:relative;
+			top: -56px !important;
+			left:-45px;
+			
+			 z-index: 1;
+
+		}
+		#btn-signup
+		{
+			position:relative;
+			top: -146px !important;
+			left:155px;
+		}
+		.row-adjust{
+			position:relative;
+			top:-45px !important;
+		}
+		.legacy-form .rose i.glyphicon {
+		    position: relative;
+		    top: 38px;
+		    left: 5px;
+			z-index: 90;
+		    bottom: 1px;
+		    padding-top: 4px;
+		    width: 20px;
+		    font-size: 20px;
+		    border-radius: 4px 0px 0px 4px;
+		    text-align: center;
+		    color: #979FAF;
+		}
+/*-------------------------------------------------------- END of Modal Window (Login/Register) ----------starts @ line ~337----------------------------------------------------------------------------------------------*/
+
+
+
+/*======================================================== FRONT PAGE NAVIGATION BAR =========== ends @ line 131 =======================================================================================================*/
+	/*-- Top navigation bar settings --*/
+		.static-topbar {
+			  background: #39424e;
+			  border-bottom: 3px solid #2ec866;
+			  position: fixed;
+			  top: 0;
+			  width: 100%;
+			  z-index: 1039;
+		}
+		.topbar-style {
+			  background: #39424e;
+			  border-bottom: 3px solid #2ec866;
+			  
+			  width: 100%;
+			  z-index: 1039;
+		}
+		.navbar-default{
+			background: #39424e;
+			border:none;
+			margin: auto 0px;
+		}
+		.static-home-nav {
+			  float: right;
+			  text-align: right;
+			 
+		}
+		.static-link{
+			color: #2ec866;
+			cursor: pointer;
+			font-size: .9em;
+			font-weight: 600;
+			display: inline-block;
+			padding: 25px 20px;
+			margin: 1px 0;
+			position: relative;
+		}
+	/*-- Top navigation bar  links --*/
+		.navbar-default .navbar-nav>li>a.static-link{
+			  color: white;
+			  cursor: pointer;
+			  font-size: .9em;
+			  font-weight: 600;
+			  display: inline-block;
+			  padding: 25px 20px;
+			  margin: 1px 0;
+			  position: relative;  
+			  transition: 0.3s color ease; 
+		}
+		.navbar-default .navbar-nav>li>a.static-link:focus, 
+		.navbar-default .navbar-nav>li>a.static-link:hover{
+			 	color: #2ec866 !important;
+			 	transition: 0.3s color ease;
+		}
+		.navbar-default .navbar-nav>.active>a.static-link, 
+		.navbar-default .navbar-nav>.active>a.static-link:focus, 
+		.navbar-default .navbar-nav>.active>a.static-link:hover  {
+			  color: #2ec866 !important;
+			  background: #232931;
+			  transition: 0.3s color ease;
+		}
+		.navbar-default .navbar-nav>.open>a:hover {
+			color: #555;
+			background: #232931;
+		}
+		.navbar-default .navbar-nav>.open>a {
+			 color: #555 !important;
+			 background: #232931 !important;
+		}
+		.navbar-right{
+				display:inline-block;
+				position:absolute;
+				right:25px;
+		}
+	/*-- Top navigation bar dropdown links --*/
+		.dropdown-menu>li>a {
+			  display: block;
+			  background: #39424e;
+			  color:white;
+			  padding: 3px 20px;
+			  clear: both;
+			  font-weight: 400;
+			  white-space: nowrap;
+		}
+		.dropdown-menu>li>a:hover {
+			  display: block;
+			  background: #39424e;
+			  color:#2ec866;
+			  padding: 3px 20px;
+			  clear: both;
+			  font-weight: 400;
+			  transition: 0.3s color ease;
+			  white-space: nowrap;
+		}
+		.dropdown-menu .divider {
+			  height: 1px;
+			  margin: 9px 0;
+			  overflow: hidden;
+			   background-color:  #2ec866;
+		}
+		
+/*-------------------------------------------------------- END OF Front Page Navigatio bar ----- starts @ line 28 -------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*======================================================== FRONT PAGE TESTIMONIALS/QUETES  =========== ends @ line ~259=======================================================================================================*/
+	/*-- Testimonials/Quotes under the slider positioning--*/
+		.testimonials {
+		  width: 100%;
+		  max-width: 1240px;
+		  margin: -3% auto !important;
+		}
+		.position-testimonials{
+			position:relative;
+			top:-10px;
+			z-index: 65;
+		}
+		.hr-home-herosub q {
+		  padding: 0 3em;
+		  position: relative;
+		  font-size: 1.25em;
+		}
+		#hr-home-herosub:before {
+		  height: 75px;
+		  width: 75px;
+		  content: '';
+		  display: inline-block;
+		  background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-left.png");
+		  font-family: hricons;
+		  color: white;
+		  background: #39424e;
+		  border-radius: 75px;
+		  position: relative;
+		  top: -42px;
+		  left: 48%;
+		  left: calc(50% - 36px);
+		  box-sizing: border-box;
+		  padding-top: 15px;
+		  text-align: center;
+		  z-index:60;
+		}
+	/*-- Testimonials/Quotes COLORING--*/
+		.fill-dark {
+		  background: #39424e;
+		  color: #fff;
+		}
+		.hr-home-herosub{
+			background-color: rgb(57, 66, 78);
+			height:100px;
+		}
+	/*-- Testimonials/Quotes adding special before+after quetes ("") --*/
+		.hr-home-herosub q:before {
+			background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-left.png");
+			margin-right: 10px;  
+		}
+		.hr-home-herosub q:after {
+			background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-right.png");
+			margin-right: 10px;  
+		}
+		.hr-home-herosub q:before, .hr-home-herosub q:after {
+			content: '';
+			display: inline-block;
+			height: 16px;
+			width: 24px;
+		}
+/*-------------------------------------------------------- END OF FRONT PAGE TESTIMONIALS/QUETES ----------starts @ line ~199----------------------------------------------------------------------------------------------*/
+
+
+
+
+	
+
+/*======================================================== FRONT PAGE GREEN TILTED SECTION =========== ends @ line ~490=======================================================================================================*/
+	/*-- Main+secondery green screen rotating and postioning --*/
+		.hr-domains {
+			width:120%;
+			height:100%;
+			position:relative;
+			left:-5%;
+			padding-top: 10em;
+			padding-top: 1em;
+			padding-bottom: 0em;
+			margin-top:180px;
+			margin-bottom:8px;
+			background-color: transparent;
+			-ms-transform: rotate(-3deg); /* IE 9 */
+			-webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+			transform: rotate(-3deg);
+		}
+		.tilt{
+			padding-top: 8em;
+			width:100%;
+			height:auto;
+			background-size: 100% auto;
+		}
+		.hr-domains-cards ul{
+			min-height:auto;
+		}
+	/*-- MAin text centered --*/
+		.tilt-text{
+			color: white;
+			margin: 0.5em auto !important;
+			width:60%;
+			-ms-transform: rotate(3deg); /* IE 9 */
+			-webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+			transform: rotate(3deg);
+		}
+	/*=============== 5 main poput blocks  =======================*/
+		/*———————— Position+Rotation of all 5 blocks————————*/
+			.hr-domains-cards {
+			    width: 90%;
+			 	box-sizing:content-box;
+			    transform: rotate(3deg);
+			    padding: 0px !important;
+				height:231px;
+				margin-bottom:0px; 
+			}
+		/*———————— Main body style ————————*/
+			.hr-landing-card-details {
+				height:300px;
+				background: white;  
+				color: #f65039;
+				border: 2px solid #f65039;	
+				border-radius: 10px;
+				text-align: center;
+				
+				margin: 0.5em auto; 
+				padding-top: 1em;
+				padding-right: 2.5%;
+				padding-left: 2.5%;
+				padding-bottom:0.1em;
+				position: relative;
+				top:0px; 
+				overflow:hidden;
+				box-sizing: border-box;
+				-webkit-backface-visibility: hidden;
+				transition: all 0.2s linear;
+			}
+			
+		
+			
+	/*=============== END OF 5 main poput blocks  =======================*/
+/*-------------------------------------------------------- END OF FRONT PAGE GREEN TILTED SECTION ----------starts @ line ~360----------------------------------------------------------------------------------------------*/
+		
+	
+
+/*======================================================== FRONT PAGE FOOTER SECTION =========== ends @ line ~517=======================================================================================================*/
+	/*-- Main footer list links  (Uses fill-dark @line ~213)--*/
+		ul.unstyled > li > a{
+			  color: white;
+			  text-decoration: none;
+			}
+		ul.unstyled > li > a:focus, 
+		ul.unstyled > li > a:hover{
+			 color: #2ec866 !important;
+			 transition: 0.3s color ease;
+		}
+	/*-- Footer p[ositioning --*/
+		.footer-padding{
+			padding: 15px;
+		}
+		p.msT > a{
+			color: white;
+			 
+		}
+		p.msT > a:hover{
+			 color: #2ec866 !important;
+			 transition: 0.3s color ease; 
+		}
+		.static-footer-small{
+			position:absolute;
+			bottom: 0%;
+			width:100%;
+		}
+		
+		 div.col-xs-12.col-lg-8.x-footer-links > div > ul.unstyled.col-xs-8.col-sm-4 > li
+			{
+				display:block;
+				float:none;
+				
+			}
+/*-------------------------------------------------------- END OF FRONT PAGE FOOTER SECTION ----------starts @ line ~494----------------------------------------------------------------------------------------------*/
+
+/*======================================================== FRONT PAGE TESTIMONIALS/QUETES  =========== ends @ line ~259=======================================================================================================*/
+	/*-- Testimonials/Quotes under the slider positioning--*/
+		.testimonials {
+		  width: 100%;
+		  max-width: 840px;
+		  margin: -6% auto !important;
+		}
+		.position-testimonials{
+			position:relative;
+			top:0px;
+			z-index: 65;
+		}
+		.hr-home-herosub q {
+		  padding: 0 1em;
+		  position: relative;
+		  font-size: 1.25em;
+		}
+		#hr-home-herosub:before {
+		  height: 75px;
+		  width: 75px;
+		  content: '';
+		  display: inline-block;
+		  background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-left.png");
+		  font-family: hricons;
+		  color: white;
+		  background: #39424e;
+		  border-radius: 75px;
+		  position: relative;
+		  top: -42px;
+		  left: 48%;
+		  left: calc(50% - 36px);
+		  box-sizing: border-box;
+		  padding-top: 15px;
+		  text-align: center;
+		  z-index:60;
+		}
+	/*-- Testimonials/Quotes COLORING--*/
+		.fill-dark {
+		  background: #39424e;
+		  color: #fff;
+		}
+		.hr-home-herosub{
+			background-color: rgb(57, 66, 78);
+			height:100px;
+		}
+	/*-- Testimonials/Quotes adding special before+after quetes ("") --*/
+		.hr-home-herosub q:before {
+			background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-left.png");
+			margin-right: 10px;  
+		}
+		.hr-home-herosub q:after {
+			background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-right.png");
+			margin-right: 10px;  
+		}
+		.hr-home-herosub q:before, .hr-home-herosub q:after {
+			content: '';
+			display: inline-block;
+			height: 16px;
+			width: 24px;
+		}
+/*-------------------------------------------------------- END OF FRONT PAGE TESTIMONIALS/QUETES ----------starts @ line ~199----------------------------------------------------------------------------------------------*/
+
+
+
+/*======================================================== FRONT PAGE WORD DEVIDER + Animation =========== ends @ line ~583=======================================================================================================*/
+	/*-- Word positioning --*/
+		/*———————— General settings ————————*/
+			#name-logo-animate
+			{
+				position:relative;
+				top:100px;
+				font-family: 'Open Sans', sans-serif;
+			}
+			.cut-off{
+			overflow:hidden;
+			text-overflow: clip;
+			}
+			#name-logo-animate{
+			color:black;
+			font-family:Open Sans ;
+			font-weight:800;
+			}
+		/*———————— Position of the BOTTOM HALF————————*/
+			#bottom-half
+			{
+			height:28px;
+			font-family: 'Paytone One', sans-serif;
+			position:relative;
+			bottom:14px;
+			}
+			#bottom-position
+			{
+			text-align: center;
+			font-size:4.5em;
+			height:40px;
+			position:relative;
+			top:-19px;   
+			}
+		/*———————— Position of the TOP HALF————————*/
+			#top-half{
+			height:28px;
+			font-family: 'Paytone One', sans-serif;
+			position:relative;
+			top:13px;
+			}
+			#top-position{	
+			text-align: center;
+			position:relative;
+			top:21px;    
+			height:26px;
+			font-size:4.5em;
+			}
+		/*———————— Position of the MIDDLE ————————*/
+			#mid-position{
+
+			opacity:0.0;
+			margin:auto;
+			color:#2ec866;
+			font: 300 2.5em Open Sans, sans-serif;
+			font-family: 'Lobster', cursive;
+			text-align: center;
+			position:relative;
+			top:-28px;
+			left: 10px;
+			letter-spacing: 0.7em;
+			}
+/*-------------------------------------------------------- END OF FRONT WORD DEVIDER + Animation ----------starts @ line ~521----------------------------------------------------------------------------------------------*/
+
+/*-- Single article PopOut --*/
+				/*-- main article style + animation--*/
+					.hr-landing-card-details1 {
+						background: white;  
+						
+						color: #f65039;
+						
+						
+
+					}
+					.hr-landing-card-details1 {
+					  box-sizing: border-box;
+					  border: 2px solid #979faf;
+					  
+					margin-top:20px;
+					  padding:0.5em;
+					  padding-bottom:0px;
+					  border-radius: 10px;
+					  text-align: center;
+					  color:#979faf;
+					  cursor:pointer;
+					  background: white;
+					  z-index: 4;
+					  
+						text-align: center;
+						-webkit-backface-visibility: hidden;
+					  
+					}
+				/*-- H5 tag header style animation --*/
+					.hr-domain-card-details1 h5{
+						font-size: 1.3em;
+						color:#979faf;
+						margin-bottom: 1.5em;
+						
+					}
+					.hr-domain-card-details1 h5 {
+					    color: #f65039;
+					    font-size: 1em;
+					    font-weight: bold;
+					    
+					}
+				/*-- svg tag style animation --*/
+					.hr-landing-card-details1  svg
+					{
+						margin-bottom: 0.1em;
+						fill: #f65039; 
+						height:80px;
+						width:80px;
+						
+					}
+					
+				/*-- p tag style animation --*/
+					.hr-landing-card-details1  p{
+					display:none;
+					font-size: 0.8em;
+					color:#979faf;
+					}
+					.hr-landing-card-details1  p{
+					display:inline-block;
+					color:#f65039;
+					
+					}
+
+				
+				
+		/*-- Green tilted sector END--*/
+
+/*Search button*/
+
+.search-input{
+	float:left;
+	background-color:rgb(57,66,78);	 
+	border: 2px solid #C2C7D0;
+    border-radius: 0px !important;
+    border-top-left-radius: 7px !important;
+    border-bottom-left-radius: 7px !important;
+    box-shadow: 0px 1px 2px rgba(151, 159, 175, 0.1) inset, 0px 1px 15px rgba(151, 159, 175, 0.05) inset;
+    box-sizing: border-box;
+    color: #C2C7D0 !important;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0px 0px 0px;
+    border-right-color:rgb(57,66,78)!important;
+  
+    padding: 2px 5px !important;
+    transition: all 0.6s ease 0s;
+}
+.search-button{
+	float:left;
+	border-color: #088837 #088837 #007827;
+    opacity: 0.8;
+    background-color: rgb(57,66,78) !important;
+    color: white!important;
+    font-weight: bold;
+    transition: all 0.3s ease 0.1s;
+    background-image: -moz-linear-gradient(center top , #2EC866, #29B35B);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 
+ 0px 1px 1px rgba(255, 255, 255, 0.1) inset, 
+ 0px -1px 4px rgba(32, 138, 70, 0.3) inset;
+ padding: 5px 5px !important;
+
+}
+.search-button:hover{
+	color: #088837 !important;
+}
+
+/*search button*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}

@@ -1,0 +1,811 @@
+	/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	.category-logo{
+			max-width:80px;
+			max-height:80px;
+		}	
+	.white-content{
+		text-align:center;
+			background-color:#39424e;
+			padding:10px;
+			border-radius:5px;
+			opacity:0.9;
+			margin-top:150px;
+		}
+		.white-content h1{
+			font-size: 1.25em;
+			color:white;
+		}
+		.white-content p{
+			font-size: 0.85em;
+			color:white;
+		}
+		.challenges-list{
+				padding-left:10px;
+				padding-right:10px;
+			}
+	/**------------ STandard settings ----------------------**/
+		.width-100{
+			width:100% !important;
+		} 
+		.navbar-collapse{/*Removes npadding left and right 15*/
+			padding-left:15px;
+			padding-right:15px;
+			}
+			.navbar-nav {/**margin: 7.5px -15px;*/
+			    margin: 0px 0px;
+			}
+		.carousel-position{
+			position:relative; top:0px; height:450px}	
+		.screen-text{
+			position:absolute; top:00px;left:10px;z-index:9000;
+		}
+		.overflow-small{
+			overflow:none !important;
+		}
+		.search-placeholder{
+			position:absolute;
+			top:10px;
+			right:140px;
+		}
+
+
+
+
+
+	
+
+	
+		.margin-mini{
+			margin-right:-0px !important;
+		}
+		/** Search***/
+
+		.no-padding{
+			padding:80px;
+			padding-top:120px;
+			padding-left:15px;
+			padding-right:15px;
+		}
+		.hr-domains {
+			margin-top:5em;
+		  padding-top: 2em;
+		  padding-bottom: 4em;
+		  width:100%;
+		  height:100% !important;
+		  background-image: url("https://hrcdn.net/hackerrank/assets/static/green-bg.jpg");
+		  background-size: 100% auto;
+		}
+
+		.logo-text{
+				font-size:16px;
+				margin-bottom:10px;
+				text-shadow: 1px 1px #007700;
+				font-family: 'Candal', sans-serif;
+				position:relative;
+				bottom:10px;
+				
+			}
+			.challengecard-title a{
+					color: #979FAF;
+					font-weight: 600;
+					text-decoration: none;
+					font-family: "Whitney SSm A","Whitney SSm B",verdana,"Lucida Grande",sans-serif;
+					font-family: 'Roboto Condensed', sans-serif;
+					font-size: 24px;
+				}
+	/*======================================================== FRONT PAGE NAVIGATION BAR =========== ends @ line 131 =======================================================================================================*/
+		/*-- Top navigation bar settings --*/
+			.static-topbar {
+				  background: #39424e;
+				  border-bottom: 3px solid #2ec866;
+				  position: relative;
+				  top: 0;
+				  width: 100%;
+				  z-index: 1039;
+			}
+			.topbar-style {
+				  background: #39424e;
+				  border-bottom: 3px solid #2ec866;
+				  
+				  width: 100%;
+				  z-index: 1039;
+			}
+			.navbar-default{
+				background: #39424e;
+				border:none;
+				margin: auto 0px;
+			}
+			.static-home-nav {
+				  float: right;
+				  text-align: right;
+				  width: 50%;
+			}
+			.static-link{
+				color: #2ec866;
+				cursor: pointer;
+				font-size: .9em;
+				font-weight: 600;
+				display: inline-block;
+				padding: 25px 20px;
+				margin: 1px 0;
+				position: relative;
+			}
+		/*-- Top navigation bar  links --*/
+			.navbar-default .navbar-nav>li>a.static-link{
+				  color: white;
+				  cursor: pointer;
+				  font-size: .9em;
+				  font-weight: 600;
+				  display: inline-block;
+				  padding: 25px 20px;
+				  margin: 1px 0;
+				  position: relative;  
+				  transition: 0.3s color ease; 
+			}
+			.navbar-default .navbar-nav>li>a.static-link:focus, 
+			.navbar-default .navbar-nav>li>a.static-link:hover{
+				 	color: #2ec866 !important;
+				 	transition: 0.3s color ease;
+			}
+			.navbar-default .navbar-nav>.active>a.static-link, 
+			.navbar-default .navbar-nav>.active>a.static-link:focus, 
+			.navbar-default .navbar-nav>.active>a.static-link:hover  {
+				  color: #2ec866 !important;
+				  background: #232931;
+				  transition: 0.3s color ease;
+			}
+			.navbar-default .navbar-nav>.open>a:hover {
+				color: #555;
+				background: #232931;
+			}
+			.navbar-default .navbar-nav>.open>a {
+				 color: #555 !important;
+				 background: #232931 !important;
+			}
+			.navbar-right{
+					display:inline-block;
+					position:absolute;
+					right:25px;
+			}
+		/*-- Top navigation bar dropdown links --*/
+			.dropdown-menu>li>a {
+				  display: block;
+				  background: #39424e;
+				  color:white;
+				  padding: 3px 20px;
+				  clear: both;
+				  font-weight: 400;
+				  white-space: nowrap;
+			}
+			.dropdown-menu>li>a:hover {
+				  display: block;
+				  background: #39424e;
+				  color:#2ec866;
+				  padding: 3px 20px;
+				  clear: both;
+				  font-weight: 400;
+				  transition: 0.3s color ease;
+				  white-space: nowrap;
+			}
+			.dropdown-menu .divider {
+				  height: 1px;
+				  margin: 9px 0;
+				  overflow: hidden;
+				   background-color:  #2ec866;
+			}	
+	/*-------------------------------------------------------- END OF Front Page Navigatio bar ----- starts @ line 28 -------------------------------------------------------------------------------------------------------*/
+
+
+
+
+	/*======================================================== FRONT PAGE TESTIMONIALS/QUETES  =========== ends @ line ~259=======================================================================================================*/
+		/*-- Testimonials/Quotes under the slider positioning--*/
+			.testimonials {
+			  width: 100%;
+			  max-width: 1240px;
+			  margin: -3% auto !important;
+			}
+			.position-testimonials{
+				position:relative;
+				top:-10px;
+				z-index: 65;
+			}
+			.hr-home-herosub q {
+			  padding: 0 3em;
+			  position: relative;
+			  font-size: 1.25em;
+			}
+			#hr-home-herosub:before {
+			  height: 75px;
+			  width: 75px;
+			  content: '';
+			  display: inline-block;
+			  background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-left.png");
+			  font-family: hricons;
+			  color: white;
+			  background: #39424e;
+			  border-radius: 75px;
+			  position: relative;
+			  top: -42px;
+			  left: 48%;
+			  left: calc(50% - 36px);
+			  box-sizing: border-box;
+			  padding-top: 15px;
+			  text-align: center;
+			  z-index:60;
+			}
+		/*-- Testimonials/Quotes COLORING--*/
+			.fill-dark {
+			  background: #39424e;
+			  color: #fff;
+			}
+			.hr-home-herosub{
+				background-color: rgb(57, 66, 78);
+				height:100px;
+			}
+		/*-- Testimonials/Quotes adding special before+after quetes ("") --*/
+			.hr-home-herosub q:before {
+				background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-left.png");
+				margin-right: 10px;  
+			}
+			.hr-home-herosub q:after {
+				background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-right.png");
+				margin-right: 10px;  
+			}
+			.hr-home-herosub q:before, .hr-home-herosub q:after {
+				content: '';
+				display: inline-block;
+				height: 16px;
+				width: 24px;
+			}
+	/*-------------------------------------------------------- END OF FRONT PAGE TESTIMONIALS/QUETES ----------starts @ line ~199----------------------------------------------------------------------------------------------*/
+
+
+
+
+	/*======================================================== Notifications =========== ends @ line ~=======================================================================================================*/
+
+		.notif-icon{
+			font-size:26px;
+			font-size:18px; color:#2ec866;
+			margin-right:0px; 
+			color:white;
+		}
+		.notif-numb{
+			box-shadow: -1px 2px 2px green;
+			background-color:#2ec866;
+			padding:2px 5px; 
+			width:14px; 
+			height:14px; 
+			color:white;
+			position:relative;
+			font-size:16px;
+			top:4px;
+			left:10px
+
+		}
+
+
+
+
+		.notification-link{
+			cursor:pointer;
+			margin-top:18px;
+			position:relative;
+			position:relative;
+			top:1px;
+			right:1px;
+			border-top-left-radius:10px;
+			border-top-right-radius:10px;
+		}
+		.notification-active{
+			cursor:pointer;
+			background-color:rgb(35,42,49);
+			padding:0px 0px 0px 0px; 
+			width:65px;
+			border-top-left-radius:10px;
+			border-top-right-radius:10px;
+			margin-top:32px;
+			padding-bottom:5px;
+		}
+		.header-notification{
+			background-color:none;
+			border-top:none;
+			border:none;
+			background-color:rgb(35,42,49);
+			min-height:40px;
+			border-top-left-radius:10px; 
+			border-top-right-radius:0px; 
+			border-top-color:transparent;
+		}
+
+		.notification-dropdown{
+			background-color:transparent; 
+			padding:0px;
+			border-radius:10px;
+			border-top-right-radius:0px;
+			border-color:none;
+			width:400px;
+			background-color:white;
+		}
+		li.notification{
+			position:relative;
+			left:40px;
+		}
+
+
+		 li.notification  ul.dropdown-menu {
+		background-color:white !important;
+		border-radius:10px;
+		border-top-right-radius: 0px;
+		border-top-color:rgb(35,42,49);
+		}
+		.first-note{
+		margin-top:38px;
+		}
+		.empty-notification{
+			background-color:white;
+			min-height:50px;
+			border:2px dashed #979FAF;
+			margin:5px;
+			margin-top:5px;
+			padding-top:13px;
+			font-weight:600;
+			color:#979FAF;
+		}
+		.notification-tab{
+			background-color:white;
+			color: #979FAF;
+			min-height:50px;
+			background-color:#39424e;
+			border-top:2px solid #2ec866;
+			margin-top:0px;
+			padding:10px;
+			padding-top:13px;
+		}
+		.note-information{
+			font-size:20px
+		}
+		.note-title{
+			font-size:18px
+		}
+
+
+		.note-tab-padding{
+			padding:20px 50px; 
+		}
+
+
+
+		.note-submeni{
+		  visibility: visible;
+		 opacity:1;
+		 float:left;
+		 clear:right;
+		 border:1px solid #979FAF;
+		 margin-top:15px;
+		 padding:10px;
+		 border-left:none; 
+		 padding-left:0px; 
+		 border-top-right-radius:20px;
+		 border-bottom-right-radius:20px;
+		 font-size:22px;  
+		}
+
+		.note-submeni-link{
+		color:#979FAF;
+		transition: .3s ease all;
+		display:block;
+		border:1px solid trasnparent;
+		width:30px;
+		height:30px;
+		padding:5px;
+		}
+		.note-submeni-link:hover{
+			color:#2ec866;
+			transition: .3s ease all;
+		}
+		.note:hover + .note-submeni{
+		    visibility: visible;
+		    opacity:1;
+		    webkit-box-shadow: 0px 0px 6px 0px rgba(38,153,153,0.36);
+		    -moz-box-shadow: 0px 0px 6px 0px rgba(38,153,153,0.36);
+		    box-shadow: 0px 0px 10px 0px rgba(38,153,153,0.36);
+		   transition: opacity 0.3s ease 0.3s;
+		}
+		.note-submeni:hover{
+			visibility: visible;
+		    opacity:1;
+		   transition: opacity 0.3s ease 0.3s;
+		}
+
+
+		.note + .note-submeni:before {
+		    border-bottom: 7px solid transparent;
+		    border-left: none;
+		    border-right: 7px solid rgba(0, 0, 0, 0.2);
+		    border-top: 7px solid transparent;
+		    left: -7px;
+		    top: 10px;
+		}
+		.note + .note-submeni:after {
+		    border-top: 6px solid transparent;
+		    border-left: none;
+		    border-right: 6px solid #fff;
+		    border-bottom: 6px solid transparent;
+		    left: 10px;
+		    top: 11px;
+		    left: -6px;
+		}
+	/*======================================================== Notifications =========== ends @ line ~=======================================================================================================*/
+
+
+
+
+/*======================================================== Modal Window (Login/Register) =========== ends @ line ~=======================================================================================================*/
+	/*-- Positioning Overlay backdrop--*/
+		.modal-above{
+			z-index:1050 !important;
+		}
+		.modal-dialog{
+			    margin: 5px auto;
+		}
+		.modal-backdrop, .hr-dialog, .modal-backdrop.fade.in, .fade.in.hr-dialog {
+		    opacity: 1;
+		    transition: color 1.3s ease 0s;
+		}
+		.modal-backdrop, .hr-dialog {
+		    position: relative;
+		    top: 0px;
+		    right: 0px;
+		    bottom: 0px;
+		    left: 0px;
+		    background-image: url("../images/hr-dialog-border.png");
+		    height: 100%;
+		    width: 100%;
+		    z-index: 1040;
+		}
+	/*-- ".hr-dialog" Positioning Modal in the window--*/
+		/*———————— Hr-dialog general settings ————————*/
+			.hr-dialog .hr-dialog-border {
+			    padding: 5px;
+			}
+			.hr-dialog-body .homepage_admin {/*--COMMENT:-- positiioning the content of the dialog inside itself*/
+			    border: 1px solid #C2C7D0;
+			    margin-bottom: 5px;
+			    margin-top: 70px;
+			}
+			.homepage_admin {/*--COMMENT:-- making it fit inside itself*/
+			    background: #FFF none repeat scroll 0% 0%;
+			    width: auto;
+			    margin: 60px auto 30px;
+			    padding: 30px;
+			    padding-top:0px;
+			    position: relative;
+			}
+		/*———————— Hr-dialog-header ————————*/
+			.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-header {
+			    color: #39424E;
+			    font-weight: bold;
+			    line-height: 1em;
+			    background: #F8F9FA none repeat scroll 0% 0%;
+			    padding: 15px 10px;
+			    min-height: 10px;
+			    border-bottom: 1px solid #C2C7D0;
+			}
+			.hr-dialog-header a{
+				transition: all 0.3s ease 0.1s;
+				-webkit-transform: translateZ(0);
+			}
+			.hr-dialog-header button i{
+				position:relative;
+				top:-10px;
+			}
+			.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-header a.close i {
+			    top: -5px;
+			}
+		/*———————— Hr-dialog-body ————————*/
+			/*== Genral settings==*/
+				.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-body {
+				    padding: 10px;
+				    color: #39424E;
+				    background: #FFF none repeat scroll 0% 0%;
+				}
+			/*== ".btn-primary:not(.btn-flat)"  login and register buttons==*/
+			
+				.btn-primary:not(.btn-flat), 
+				.btn-green:not(.btn-flat), 
+				.btn-inverse:active .btn-inverse.active:not(.btn-flat), 
+				.btn-green:not(.btn-flat), 
+				.btn-inverse:active .btn-inverse.active:not(.btn-flat) {
+				    border-color: #088837 #088837 #007827;
+				    opacity: 0.8;
+				    background-color: #2EC866;
+				    color:white;
+				    font-weight: bold;
+				    transition: all 0.3s ease 0.1s;
+				    background-image: -moz-linear-gradient(center top , #2EC866, #29B35B);
+				    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 
+				    			0px 1px 1px rgba(255, 255, 255, 0.1) inset, 
+				    			0px -1px 4px rgba(32, 138, 70, 0.3) inset;
+				}
+				.btn-primary:not(.btn-flat):hover{
+					background-color: #1DB755;  
+					opacity: 1;
+					transition: all 0.3s ease 0.1s;
+				}
+		/*———————— Hr-dialog-footer ————————*/
+			/*== General footer settings ==*/
+				.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-footer {
+				    text-align: right;
+				    padding: 0px;
+				    background: #FFF none repeat scroll 0% 0%;
+				}
+			/*== Social buttons settings ==*/
+				.btn-google, .btn-google:hover, .btn-google:active {
+				    background: #DD4B39 none repeat scroll 0% 0%;
+				    color: #FFF;
+				}
+				.btn-social {
+				    display: inline-block;
+				    padding: 0px 10px 0px 0px;
+				    height: 40px;
+				    border: medium none;
+				    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+				    text-align: left;
+				}
+				.btn-facebook, .btn-facebook:hover, .btn-facebook:active {
+				    background: #3B5998 none repeat scroll 0% 0%;
+				    color: #FFF;
+				}
+				.btn-twitter, .btn-twitter:hover, .btn-twitter:active {
+				    background: #55ACEE none repeat scroll 0% 0%;
+				    color: #FFF;
+				}
+				.btn-social i {
+				    background: rgba(0, 0, 0, 0.075) none repeat scroll 0% 0% padding-box;
+				    display: inline-block;
+				    padding: 0px 4px 0px 8px;
+				    margin-right: 8px;
+				    border-radius: 5px 0px 0px 5px;
+				    top: 0px;
+				    line-height: 40px;
+				}
+				.homepage_signupgroup--social{
+					position:relative;
+					top:-100px;
+				}
+				.homepage_logingroup--social{
+					position:relative;
+					top:20px;
+				}
+	/*-- Shared for both tabs content --*/
+		.alert.error, 
+		.error.message, 
+		.error.notification, 
+		.alert.alert-error, 
+		.alert-error.message,
+		.message.error, 
+		.alert-error.notification {
+		    background: rgba(246, 80, 57, 0.05) none repeat scroll 0% 0%;
+		    border-color: #F65039;
+		    color: #F1270B;
+		}
+		.alert{
+			margin-top:5px;
+			margin-bottom:2px;
+		}
+		.formgroup
+		 {
+
+		    margin-bottom: 1px;
+		    margin-top: 1px;
+		}
+		.boundT {
+			margin-top: 2px;
+			padding-top: 2px;
+			padding-bottom: 1px;
+			font-size: 16px;
+			color:#979FAF;
+		    border-top: 1px solid #C2C7D0;
+		}
+	/*-- Just tabs for switching--*/
+		ul.horizontal li, ol.horizontal li {
+		    display: inline;
+		}
+		.homepage_admin .login_tab .toggle.active {
+		    border-bottom: 1px solid #FFF;
+		    transition: all 0.6s ease 0.3s;
+		    background: #FFF none repeat scroll 0% 0%;
+		    z-index: 20;
+		}
+		.homepage_admin .login_tab .login-toggle.active {
+			transition: all 0.6s ease 0.3s;
+		    box-shadow: -2px -1px 3px rgba(0, 0, 0, 0.05);
+		}
+		.homepage_admin .login_tab .toggle a {
+		    position: absolute;
+		    top: 0px;
+		    left: 0px;
+		    right: 0px;
+		    bottom: 0px;
+		    line-height: 60px;
+		    color: #979FAF;
+		}
+		.homepage_admin .login_tab .toggle {
+	    position: absolute;
+	    top: -80px;
+	    font-family: "Whitney SSm A","Whitney SSm B",verdana,"Lucida Grande",sans-serif;
+	    padding: 20px 20px;
+	    width: 255px;
+	    height: 80px;
+	    font-size: 20px;
+	    font-weight: 700;
+	    color: #444;
+	    text-align: center;
+	    border: 1px solid #C2C7D0;
+	    background: #FAFAFA none repeat scroll 0% 0%;
+	    z-index: 10;
+	    transition: all 0.6s ease 0.3s;
+		}
+	/*-- Login tab settings --*/
+		.homepage_admin .login_tab .login-toggle {/*-- COMMENT: Positions the tabs fo they align with the border body --*/
+		    right: -1px;
+		}
+	/*-- Sign up tab settings --*/
+		.homepage_admin .login_tab .signup-toggle {
+		    left: -1px;
+		}
+		.homepage_signupgroup--legacy{
+			margin-top:5px !important;
+			overflow:hidden;padding:20px 35px;
+		}
+	/*-- .btn-link --*/
+		.btn-text, 
+		.btn-link {
+		    background: transparent none repeat scroll 0% 0%;
+		    border: medium none;
+		    box-shadow: none;
+		    color: #979FAF;
+		    cursor: pointer;
+		    font-size: inherit;
+		    font-weight: inherit;
+		    padding: 10px 0px;
+		    text-decoration: underline !important;
+		   
+		}
+		.btn-link:focus, 
+		.btn-link:hover {
+		    color: #23527C;
+		    text-decoration: underline;
+		    background-color: transparent;
+		    
+		}
+		.signup-button{
+			z-index:80;
+		}
+	/*-- INput Positioning --*/
+		.legacy-form .rose input {
+		    display: block;
+		    padding: 10px 10px 10px 30px;
+		    height: auto;
+		    z-index: 80;
+		   
+
+		}
+
+		.legacy-form .rose div.first-left{
+			margin-top:40px;
+			position: relative;
+		   left:-45px;
+		      z-index: 70;
+		   
+		}
+		.legacy-form .rose div.first-right{
+			position: relative;
+		    margin-top:40px;
+		   left:25px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.left{
+			position: relative;
+		    top: -28px;
+		   left:-45px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.right{
+			position: relative;
+		    top: -28px;
+		   left:25px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.last-left{
+			position: relative;
+		    top: -56px;
+		   left:-45px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.last-right{
+			position: relative;
+		    top: -56px;
+		   left:25px;
+		   z-index: 70;
+		}
+		#recaptcha_widget_div{
+			position:relative;
+			top: -56px !important;
+			left:-45px;
+			
+			 z-index: 1;
+
+		}
+		#btn-signup
+		{
+			position:relative;
+			top: -146px !important;
+			left:155px;
+		}
+		.row-adjust{
+			position:relative;
+			top:-45px !important;
+		}
+		.legacy-form .rose i.glyphicon {
+		    position: relative;
+		    top: 38px;
+		    left: 5px;
+			z-index: 90;
+		    bottom: 1px;
+		    padding-top: 4px;
+		    width: 20px;
+		    font-size: 20px;
+		    border-radius: 4px 0px 0px 4px;
+		    text-align: center;
+		    color: #979FAF;
+		}
+
+
+		
+.search-input{
+
+	background-color:rgb(57,66,78);	 
+	border: 2px solid #C2C7D0;
+    border-radius: 0px !important;
+    border-top-left-radius: 7px !important;
+    border-bottom-left-radius: 7px !important;
+    box-shadow: 0px 1px 2px rgba(151, 159, 175, 0.1) inset, 0px 1px 15px rgba(151, 159, 175, 0.05) inset;
+    box-sizing: border-box;
+    color: #C2C7D0 !important;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0px 0px 0px;
+    border-right-color:rgb(57,66,78)!important;
+    
+    padding: 2px 5px !important;
+    transition: all 0.6s ease 0s;
+}
+.search-button{
+	
+	border-color: #088837 #088837 #007827;
+    opacity: 0.8;
+    background-color: rgb(57,66,78) !important;
+    color: white!important;
+    font-weight: bold;
+    transition: all 0.3s ease 0.1s;
+    background-image: -moz-linear-gradient(center top , #2EC866, #29B35B);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 
+ 0px 1px 1px rgba(255, 255, 255, 0.1) inset, 
+ 0px -1px 4px rgba(32, 138, 70, 0.3) inset;
+ padding: 5px 5px !important;
+}
+.search-button:hover{
+	color: #088837 !important;
+}
+
+/*-------------------------------------------------------- END of Modal Window (Login/Register) ----------starts @ line ~337----------------------------------------------------------------------------------------------*/
+
+
+
+	 }

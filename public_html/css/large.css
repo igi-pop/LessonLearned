@@ -1,0 +1,2677 @@
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+.carousel-position
+{
+	position:relative; top:40px; height:750px}
+	.screen-text{
+		position:absolute; top:-80px;left:10px;z-index:9000;
+	}
+	.navbar-collapse{/*Removes npadding left and right 15*/
+		
+			}
+			.navbar-nav {/**margin: 7.5px -15px;*/
+			  
+			}
+			.white-content{
+			background-color:#39424e;
+			padding:20px;
+			border-radius:5px;
+			opacity:0.9;
+			position:absolute;
+			top:200px;
+			margin-top:0px;
+		}
+		.white-content h1{
+			font-size: 2em;
+			color:white;
+		}
+		.white-content p{
+			font-size: 1.5em;
+			color:white;
+		}
+/* ======== MAJOR SECTION HEADING ===========*/
+/* ———————— Minor Section Heading ———————————*/
+
+/**** SEARCH *****/
+.search-placeholder{
+	position:absolute;
+	top:10px;
+	right:250px;
+}
+
+/**** SEARCH *****/
+@font-face {
+    font-family: Dinner-Fat;
+    src: url('../font/Diner-Fat/DINNERFT.ttf') format("truetype");
+}
+
+@font-face {
+font-family:"Diner-Skinny";
+src:url("../font/Diner-Skinny/Diner-Skinny.eot?") format("eot"),
+url("../font/Diner-Skinny/Diner-Skinny.woff") format("woff"),
+url("../font/Diner-Skinny/Diner-Skinny.ttf") format("truetype"),
+url("../font/Diner-Skinny/Diner-Skinny.svg#Diner-Skinny") 
+format("svg");font-weight:normal;
+
+font-style:normal;
+}
+.color-alt-grey 
+{
+	color: #979FAF;
+}
+.center{
+	text-align:center;
+}
+.color-dark{
+	color:#39424e;
+}
+.fill-dark 
+{
+		  background: #39424e;
+		  color: #fff;
+}
+.lobster{
+	font: 300 2.5em Open Sans, sans-serif;
+    font-family: 'Lobster', cursive;
+}
+input.upload {
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.order-item{
+	cursor:grabbing !important;
+	border: 1px solid #c2c7d0;
+		  border-bottom-color: #b4bac5;
+		  border-radius: 3px;
+		  box-shadow: 0 1px 3px rgba(0,0,0,0.08),inset 0 -1px 4px rgba(151,159,175,0.2);
+		  box-sizing: border-box;
+		  cursor: pointer;
+		  
+}
+ object.logo {
+	fill: currentColor;
+	color:green;
+	transition: .6s ease all;
+	width:50px; 
+	height:50px; 
+	position:relative; 
+	top:10px;
+}
+
+.nav-avatar span{
+	    display: inline-block;
+    vertical-align: middle;
+    margin-right:5px;
+    color:white;
+        font-weight: 600;
+    font-size: 14px;
+}
+#profile-menu{
+	margin-top:20px;
+}
+
+.carousel-inner{
+	height:750px;
+}
+.logo-text{
+				font-size:26px;
+				margin-bottom:10px;
+				text-shadow: 1px 1px #007700;
+				font-family: 'Candal', sans-serif;
+				position:relative;
+				bottom:10px;
+				
+			}
+#recaptcha_widget_div {
+    display: block;
+    float: left;
+    top: -10px;
+    position: relative;
+    z-index: 190;
+}
+
+.no-padding{
+	padding-top:80px;
+	padding-bottom:80px;
+}
+.main_content{
+	margin-bottom:60px;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+/*											_________							_______
+								|	  |		|		|		|\        /|		|
+								|	  |		|		|		| \      / |		|
+								|_____|		|		|		|  \    /  |		|-----
+								|	  |		|		|		|   \  /   |		|  	  
+								|	  |		|_______|		|    \/    |		|______
+
+*/
+
+
+
+/*======================================================== FRONT PAGE NAVIGATION BAR =========== ends @ line 131 =======================================================================================================*/
+	/*-- Top navigation bar settings --*/
+		.static-topbar {
+			  background: #39424e;
+			  border-bottom: 3px solid #2ec866;
+			  position: fixed;
+			  top: 0;
+			  width: 100%;
+			  z-index: 1039;
+		}
+		.topbar-style {
+			  background: #39424e;
+			  border-bottom: 3px solid #2ec866;
+			  
+			  width: 100%;
+			  z-index: 1039;
+		}
+		.navbar-default{
+			background: #39424e;
+			border:none;
+			margin: auto 0px;
+		}
+		.static-home-nav {
+			  float: right;
+			  text-align: right;
+			  width: auto ;
+		}
+		.static-link{
+			color: #2ec866;
+			cursor: pointer;
+			font-size: .9em;
+			font-weight: 600;
+			display: inline-block;
+			padding: 25px 20px;
+			margin: 1px 0;
+			position: relative;
+		}
+	/*-- Top navigation bar  links --*/
+		.navbar-default .navbar-nav>li>a.static-link{
+			  color: white;
+			  cursor: pointer;
+			  font-size: .9em;
+			  font-weight: 600;
+			  display: inline-block;
+			  padding: 25px 20px;
+			  margin: 1px 0;
+			  position: relative;  
+			  transition: 0.3s color ease; 
+		}
+		.navbar-default .navbar-nav>li>a.static-link:focus, 
+		.navbar-default .navbar-nav>li>a.static-link:hover{
+			 	color: #2ec866 !important;
+			 	transition: 0.3s color ease;
+		}
+		.navbar-default .navbar-nav>.active>a.static-link, 
+		.navbar-default .navbar-nav>.active>a.static-link:focus, 
+		.navbar-default .navbar-nav>.active>a.static-link:hover  {
+			  color: #2ec866 !important;
+			  background: #232931;
+			  transition: 0.3s color ease;
+		}
+		.navbar-default .navbar-nav>.open>a:hover {
+			color: #555;
+			background: #232931;
+		}
+		.navbar-default .navbar-nav>.open>a {
+			 color: #555 !important;
+			 background: #232931 !important;
+		}
+		.navbar-right{
+				display:inline-block;
+				position:absolute;
+				right:25px;
+		}
+	/*-- Top navigation bar dropdown links --*/
+		.dropdown-menu>li>a {
+			  display: block;
+			  background: #39424e;
+			  color:white;
+			  padding: 3px 20px;
+			  clear: both;
+			  font-weight: 400;
+			  white-space: nowrap;
+		}
+		.dropdown-menu>li>a:hover {
+			  display: block;
+			  background: #39424e;
+			  color:#2ec866;
+			  padding: 3px 20px;
+			  clear: both;
+			  font-weight: 400;
+			  transition: 0.3s color ease;
+			  white-space: nowrap;
+		}
+		.dropdown-menu .divider {
+			  height: 1px;
+			  margin: 9px 0;
+			  overflow: hidden;
+			   background-color:  #2ec866;
+		}
+		
+/*-------------------------------------------------------- END OF Front Page Navigatio bar ----- starts @ line 28 -------------------------------------------------------------------------------------------------------*/
+
+
+
+/*======================================================== FRONT PAGE PROMO VIDEO =============== ends @ line ! 195 =====================================================================================================*/
+	/*-- Main container for the video + dotted overlay --*/
+		.hr-home-hero{
+			display:inline-block;
+			width:100%;
+			height: 100%;
+			max-height:750px;
+			overflow:hidden;
+		}
+		.hr-home-hero .overlay {
+		 
+		  width: 100%;
+		  min-height: 750px;
+		  max-height:840px;
+		  height:100%;
+		  overflow:visible;
+		  z-index:55 !important;
+		  position: absolute;
+		  top:0px;
+		}
+	/*-- Container for the video + video adjustments --*/
+		.videoBg{
+			width:100% !important;
+			overflow:hidden;
+		}
+		.hr-home-hero .video, .hr-home-hero video {
+		  transition: opacity 0.3s ease;
+		  position: relative;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100% !important;
+		  z-index: -1;
+		}
+		.hr-home-hero video {
+		 
+		  background-size: cover;
+		}
+	/*-- Container for the text in the center of the promo screen --*/
+		.container--flex{
+			width: 100%;
+			font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande", sans-serif;
+			margin: 10% auto !important;
+			text-align:center;
+			color:white;
+		  	max-width: 1240px;  	
+		}
+		.hero-content{
+			margin: 10% auto !important;
+		}
+		.static-hero h1, .static-hero h2 {
+		  font-size: 2em;
+		  margin-bottom: .5em;
+		  position: relative;
+		  font-weight: bold;
+		}
+		.hr-home-hero p {
+		  font-size: 1.5em;
+		  margin-bottom: 1em;
+		}
+/*-------------------------------------------------------- END OF FRONT PAGE PROMO VIDEO ----------starts @ line ~135----------------------------------------------------------------------------------------------------*/
+
+
+
+/*======================================================== FRONT PAGE TESTIMONIALS/QUETES  =========== ends @ line ~259=======================================================================================================*/
+	/*-- Testimonials/Quotes under the slider positioning--*/
+		.testimonials {
+		  width: 100%;
+		  max-width: 1240px;
+		  margin: -3% auto !important;
+		}
+		.position-testimonials{
+			position:relative;
+			top:-10px;
+			z-index: 65;
+		}
+		.hr-home-herosub q {
+		  padding: 0 3em;
+		  position: relative;
+		  font-size: 1.25em;
+		}
+		#hr-home-herosub:before {
+		  height: 75px;
+		  width: 75px;
+		  content: '';
+		  display: inline-block;
+		  background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-left.png");
+		  font-family: hricons;
+		  color: white;
+		  background: #39424e;
+		  border-radius: 75px;
+		  position: relative;
+		  top: -42px;
+		  left: 48%;
+		  left: calc(50% - 36px);
+		  box-sizing: border-box;
+		  padding-top: 15px;
+		  text-align: center;
+		  z-index:60;
+		}
+	/*-- Testimonials/Quotes COLORING--*/
+		.fill-dark {
+		  background: #39424e;
+		  color: #fff;
+		}
+		.hr-home-herosub{
+			background-color: rgb(57, 66, 78);
+			height:100px;
+		}
+	/*-- Testimonials/Quotes adding special before+after quetes ("") --*/
+		.hr-home-herosub q:before {
+			background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-left.png");
+			margin-right: 10px;  
+		}
+		.hr-home-herosub q:after {
+			background: url("https://hrcdn.net/hackerrank/assets/static/homepage/green-quote-right.png");
+			margin-right: 10px;  
+		}
+		.hr-home-herosub q:before, .hr-home-herosub q:after {
+			content: '';
+			display: inline-block;
+			height: 16px;
+			width: 24px;
+		}
+/*-------------------------------------------------------- END OF FRONT PAGE TESTIMONIALS/QUETES ----------starts @ line ~199----------------------------------------------------------------------------------------------*/
+
+
+
+/*======================================================== FRONT PAGE BUTTON SECTION =========== ends @ line ~356=======================================================================================================*/
+	/*-- "btn-large" Standard button settings  --*/
+		.btn-large 
+		{
+		  padding: 12px 20px;
+		  font-size: 18px;
+		  line-height: normal;
+		}
+	/* ———————— "btn-inverse" Classic White button ———————————*/
+		.btn, 
+		.btn-inverse, 
+		.btn-inverse .btn-inverse--alt:hover {
+		  background-color: whitesmoke;
+		  border: 1px solid #c2c7d0;
+		  border-bottom-color: #b4bac5;
+		  border-radius: 3px;
+		  box-shadow: 0 1px 3px rgba(0,0,0,0.08),inset 0 -1px 4px rgba(151,159,175,0.2);
+		  box-sizing: border-box;
+		  cursor: pointer;
+		  display: inline-block;
+		  padding: 10px 15px;
+		  margin-bottom: 0;
+		  font-size: 14px;
+		  font-weight: 500;
+		  line-height: 18px;
+		  margin-bottom: 0;
+		  padding: 10px 15px;
+		  position: relative;
+		  line-height: 18px;
+		  color: #39424e;
+		  text-align: center;
+		  text-decoration: none !important;
+		  vertical-align: center;
+		  
+		}
+		.btn-green-small{
+		  margin:3px;
+		  background-color:rgb(208,240,203);
+		  color: #39424e;
+		}
+		.btn-green-small:hover, .btn-green-small:active{
+		 background-color:rgb(163,222,160);
+		 color: rgb(11,99,6);
+		}
+	/* ———————— "btn-primary" Green background button with white font ———————————	*/
+		.btn-primary:link, .btn-primary:visited, .btn-primary:active{
+			  color: #fff;
+			  background: #3ed273;
+			  z-index:60;
+			  cursor:pointer;
+			  -webkit-text-shadow: none;
+			  -moz-text-shadow: none;
+			  -ms-text-shadow: none;
+			  -o-text-shadow: none;
+			  text-shadow: none;
+			  border-color: #2ec866;
+			}
+			a.btn-primary:hover{
+				background-color: #2ec766 !important;
+				transition: opacity 0.3s ease !important;
+				cursor:pointer;
+			}
+	/* ———————— "btn-green" Transparent background with green borders ————————*/
+		/*============ green button top menu positioning ============*/
+			.navbar-right .btn-green{
+				margin-left: 5px;
+				margin-right:5px;
+			}
+		/*============ dispaly On/Off depending on resolution ============*/
+			.btn-green-display{
+				display:block !important;
+			}
+			.btn-green-mini{
+				display:none !important;
+			}
+		.btn-green, 
+		.btn-green:link, 
+		.btn-green:visited, 
+		.btn-green:active, 
+		.dropdown-menu > li > a.btn-green:link , 
+		.dropdown-menu > li > a.btn-green
+			{
+			border:1px solid #2ec866 !important;
+			color:#2ec866 !important;
+			background:transparent;
+			display: inline-block;
+			margin-top:15px;
+			padding-top:8px;
+			padding-bottom:8px;
+			transition: .6s color ease;
+			}
+		.btn-green:hover,
+		.dropdown-menu > li > a.btn-green:hover{
+			background: #2ec866 !important;
+			color: white!important;
+			transition: 0.6s color ease;
+		}
+/*-------------------------------------------------------- END OF FRONT PAGE BUTTON SECTION ----------starts @ line ~263----------------------------------------------------------------------------------------------*/
+
+	
+
+/*======================================================== FRONT PAGE GREEN TILTED SECTION =========== ends @ line ~490=======================================================================================================*/
+	/*-- Main+secondery green screen rotating and postioning --*/
+		.hr-domains {
+			width:120%;
+			height:100%;
+			position:relative;
+			left:-5%;
+			padding-top: 10em;
+			padding-top: 1em;
+			padding-bottom: 0em;
+			margin-top:180px;
+			margin-bottom:8px;
+			background-color: transparent;
+			-ms-transform: rotate(-3deg); /* IE 9 */
+			-webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+			transform: rotate(-3deg);
+		}
+		.tilt{
+			padding-top: 8em;
+			width:100%;
+			height:auto;
+			background-size: 100% auto;
+		}
+		.hr-domains-cards ul{
+			min-height:auto;
+		}
+	/*-- MAin text centered --*/
+		.tilt-text{
+			color: white;
+			margin: 0.5em auto !important;
+			width:60%;
+			-ms-transform: rotate(3deg); /* IE 9 */
+			-webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+			transform: rotate(3deg);
+		}
+	/*=============== 5 main poput blocks  =======================*/
+		/*———————— Position+Rotation of all 5 blocks————————*/
+			.hr-domains-cards {
+			    width: 90%;
+			 	box-sizing:content-box;
+			    transform: rotate(3deg);
+			    padding: 0px !important;
+				height:231px;
+				margin-bottom:0px; 
+			}
+		/*———————— Main body style ————————*/
+			.hr-landing-card-details {
+				height:300px;
+				background: white;  
+				color: #f65039;
+				border: 2px solid white;	
+				border-radius: 10px;
+				text-align: center;
+				
+				margin: 7em auto; 
+				padding-top: 1em;
+				padding-right: 2.5%;
+				padding-left: 2.5%;
+				padding-bottom:0.1em;
+				position: relative;
+				top:0px; 
+				overflow:hidden;
+				box-sizing: border-box;
+				-webkit-backface-visibility: hidden;
+				transition: all 0.2s linear;
+			}
+			.hr-landing-card-details:hover {
+				height:auto;
+				border: 2px solid #f65039;
+				color:#979faf;
+				position: relative;
+				top:-75px;
+				
+				padding-top: 0.5em;
+				padding-right: 2.5%;
+				padding-left: 2.5%;
+				padding-bottom: 0.1em;
+				cursor:pointer;  
+				z-index: 4;
+				transition: .4s ease all;  
+				}
+		/*———————— H5 tag header style animation ————————*/
+			.hr-domain-card-details h5{
+				font-size: 1.3em;
+				color:#979faf;
+				margin-bottom: 1.5em;
+				transition: .2s ease all;
+			}
+			.hr-domain-card-details:hover h5 {
+				color: #f65039;
+				font-weight: 700;
+				transition: .4s linear all;
+			}
+		/*———————— SVG tag style animation ————————*/
+			.hr-landing-card-details  svg
+			{
+				margin-bottom: 0.1em;
+				fill:#979faf;
+				height:90px;
+				width:90px;
+				transition: .6s ease all;
+			}
+			.hr-landing-card-details:hover  svg, .svg-fill{
+				fill: #f65039; 
+				width: 120px;
+				height:120px;
+				transition: .6s ease all;
+			}
+		/*———————— SVG tag style animation ————————*/
+			.hr-landing-card-details  object
+			{
+				margin-bottom: 0.1em;
+				fill:#979faf;
+				height:90px;
+				width:90px;
+				transition: .6s ease all;
+			}
+			.hr-landing-card-details:hover  object{
+				fill: #f65039;
+				color:#f65039; 
+				width: 120px;
+				height:120px;
+				transition: .6s ease all;
+			}
+		/*———————— P tag style animation ————————*/
+			.hr-landing-card-details  p{
+				display:none;
+				color:#979faf;
+			}
+			.hr-landing-card-details:hover  p{
+				display:inline-block;
+				color:#f65039;
+				transition: 0.4s linear all;
+			}
+		/*———————— Other animation ————————*/
+			.hr-leaderboard:before, .hr-home-mission:after, .hr-domains:after, .hr-leaderboard:after {
+			    content: '';
+			    height: 10em;
+			    position: absolute;
+			    left: -25%;
+			    transform-origin: 0 0;
+			    width: 150%;
+			    transform: rotate(-3deg);
+			    z-index: -1;
+			}
+	/*=============== END OF 5 main poput blocks  =======================*/
+/*-------------------------------------------------------- END OF FRONT PAGE GREEN TILTED SECTION ----------starts @ line ~360----------------------------------------------------------------------------------------------*/
+		
+	
+
+/*======================================================== FRONT PAGE FOOTER SECTION =========== ends @ line ~517=======================================================================================================*/
+	/*-- Main footer list links  (Uses fill-dark @line ~213)--*/
+		ul.unstyled > li > a{
+			  color: white;
+			  text-decoration: none;
+			}
+		ul.unstyled > li > a:focus, 
+		ul.unstyled > li > a:hover{
+			 color: #2ec866 !important;
+			 transition: 0.3s color ease;
+		}
+	/*-- Footer p[ositioning --*/
+		.footer-padding{
+			padding: 15px;
+		}
+		p.msT > a{
+			color: white;
+			 
+		}
+		p.msT > a:hover{
+			 color: #2ec866 !important;
+			 transition: 0.3s color ease; 
+		}
+		.static-footer-small{
+			position:absolute;
+			bottom: 0%;
+			width:100%;
+		}
+		
+		 div.col-xs-12.col-lg-8.x-footer-links > div > ul.unstyled.col-xs-8.col-sm-4 > li
+			{
+				display:block;
+				float:none;
+				
+			}
+/*-------------------------------------------------------- END OF FRONT PAGE FOOTER SECTION ----------starts @ line ~494----------------------------------------------------------------------------------------------*/
+
+
+
+/*======================================================== FRONT PAGE WORD DEVIDER + Animation =========== ends @ line ~583=======================================================================================================*/
+	/*-- Word positioning --*/
+		/*———————— General settings ————————*/
+			#name-logo-animate
+			{
+				position:relative;
+				top:100px;
+				font-family: 'Open Sans', sans-serif;
+			}
+			.cut-off{
+			overflow:hidden;
+			text-overflow: clip;
+			}
+			#name-logo-animate{
+			color:black;
+			font-family:Open Sans ;
+			font-weight:800;
+			}
+		/*———————— Position of the BOTTOM HALF————————*/
+			#bottom-half
+			{
+			height:28px;
+			font-family: 'Paytone One', sans-serif;
+			position:relative;
+			bottom:14px;
+			}
+			#bottom-position
+			{
+			text-align: center;
+			font-size:4.5em;
+			height:40px;
+			position:relative;
+			top:-19px;   
+			}
+		/*———————— Position of the TOP HALF————————*/
+			#top-half{
+			height:28px;
+			font-family: 'Paytone One', sans-serif;
+			position:relative;
+			top:13px;
+			}
+			#top-position{	
+			text-align: center;
+			position:relative;
+			top:21px;    
+			height:26px;
+			font-size:4.5em;
+			}
+		/*———————— Position of the MIDDLE ————————*/
+			#mid-position{
+
+			opacity:0.0;
+			margin:auto;
+			color:#2ec866;
+			font: 300 2.5em Open Sans, sans-serif;
+			font-family: 'Lobster', cursive;
+			text-align: center;
+			position:relative;
+			top:-28px;
+			left: 10px;
+			letter-spacing: 0.7em;
+			}
+/*-------------------------------------------------------- END OF FRONT WORD DEVIDER + Animation ----------starts @ line ~521----------------------------------------------------------------------------------------------*/
+
+
+
+/*											______		_______		_________					_______
+								|			|			|			|		|		|\    |		|
+								|			|			|			|		|		| \   |		|
+								|			|---- 		|-----|		|		|		|  \  |		|-----|
+								|			|			   	  |		|		|		|   \ |		  	  |
+								|_____ 		|_____		______|		|_______|		|    \|		______|
+
+*/
+
+
+
+/*======================================================== LESSON (COURSE MAIN) PAGE Breadcrumbz =========== ends @ line ~=======================================================================================================*/
+	/*-- Breadcrumb positioning --*/
+		.content-header {
+		    background: #FFF none repeat scroll 0% 0%;
+		    border-bottom: 1px solid #E0E4E8;
+		}
+		.bcrumb-position{
+			
+			padding-bottom: 15px  !important;
+		}
+		#hr_v2 .bcrumb {
+		    padding: 15px 0px !important;
+		    font-size: 14px;
+		}
+	/*-- ".bcrumb a" Breadcrumb link style/coloring --*/
+		.bcrumb {
+		    color: #979FAF;
+		}
+		.bcrumb a {
+		    color: inherit;
+		    font-weight: 600;
+		    text-decoration: none;
+			
+			transition: color 0.3s ease 0s;
+		}
+		.bcrumb a:hover {
+		    color: #39424E;
+		}
+/*-------------------------------------------------------- LESSON (COURSE MAIN) PAGE Breadcrumbz ----------starts @ line ~337----------------------------------------------------------------------------------------------*/
+
+
+
+/*======================================================== LESSON (COURSE MAIN) PAGE content course list =========== ends @ line ~=======================================================================================================*/
+	/*-- ".lg-block" Sidebar Positioning list and list items --*/
+		/*———————— General settings ————————*/
+			ul{
+				list-style-type: none;
+			}
+			.lg-block {
+			    background: #FFF none repeat scroll 0% 0%;
+			    overflow: hidden;
+			    padding-top: 20px;
+			}
+			.lg-block_head:first-of-type {
+			    border-top: medium none;
+			}
+			.lg-block_head {
+			    font-size: 14px;
+			    padding: 8px 20px;
+			    position: relative;
+			    color: #39424E;
+			    display: block;
+			    z-index:70;
+			}
+		/*———————— Current item ————————*/
+			.lg-block_head.current a{
+			    color: #4691F6 !important;
+			}
+			.lg-block_head.current {
+			    color: #4691F6 !important;
+			    border-left-color:#4691F6;
+			    border-left-style: solid;
+			    border-left-width: 3px;
+			}
+		/*———————— List option link ————————*/
+			.card-nav-link {
+			    cursor: pointer;
+			}
+
+			li.chapter-item > a{
+				color:#39424E !important;
+				text-decoration: none;
+				font-family: 'Dosis', sans-serif;
+				font-weight: 700;
+				font-size:18px;
+				transition: color 0.3s ease 0s;
+			}
+			li.chapter-item > a:hover{
+				color:#4691F6 !important;
+				transition: color 0.6s ease 0s;
+
+			}
+		/*———————— Title settings ————————*/
+			h5.title-h5, .title-h5
+				{
+				    padding-top: 20px;
+				    margin-top: 20px;
+					color: #39424E;
+					color: rgb(57, 66, 78);
+					background-color: transparent;
+				    font-size: 1.125em;
+				    font-family (stack): "Whitney SSm A","Whitney SSm B",verdana,"Lucida Grande",sans-serif;
+					font-size: 18px;
+				    line-height: 1.33333em;
+				    font-weight: 500;
+				}
+	/*-- ".challenges-list-view" Main content and course items --*/
+		/*———————— General settings ————————*/
+			.row, .formgroup.horizontal {
+			    margin-left: -7.5px;
+			    margin-right: -7.5px;
+			}
+			.track_contentList .track_content {
+			    margin-bottom: 20px;
+			}
+
+			.track_content {
+			    border-radius: 5px;
+			    background: #FFF none repeat scroll 0% 0%;
+			    border: 1px solid #C2C7D0;
+			    overflow: hidden;
+			}
+		/*————————Top part of the course item settings ————————*/
+			.content--list_body {
+			    padding: 20px 20px 0px;
+			}
+			.track_contentList .track_content {
+			    margin-bottom: 20px;
+			}
+			.track_content {
+			    border-radius: 5px;
+			    background: #FFF none repeat scroll 0% 0%;
+			    border: 1px solid #C2C7D0;
+			    overflow: hidden;
+			}
+			.msB{
+				margin-bottom:15px;
+			}
+		/*———————— Button difficulty ————————*/
+			.track_content-footer{
+				margin:5px;
+				padding:10px;
+				padding-top: 0px;
+			}
+			.challenge_links{
+				position:relative;
+				left:80px;
+				font-size:18px;
+			}
+			.difficulty:hover{
+				background-color: #e2f7e7 !important;
+				transition: opacity 0.3s ease !important;
+				cursor:pointer;
+
+			}
+		/*———————— ".btn .btn-primary" Button challange ————————*/
+			/*-- COMMENT: MAIN BUTTON is ".btn-primary" --*/
+			.track_content-footer .btn {
+			    width: 145px;
+			}
+		/*———————— Button difficulty ————————*/
+			/* -- COMMENT: main settings of button is .btn class --*/
+			.title-h5 .btn-group{
+				margin-bottom:15px;
+			}	
+			.btn.difficulty.active {
+			    background: #E9E9E9 none repeat scroll 0% 0%;
+			    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1) inset;
+			    outline: 0px none;
+				}
+		/*———————— Icon settings ————————*/
+			.icon--grey{
+				
+				color:rgb(224,226,231);
+				transition: color 0.3s ease 0s;
+			}
+			.icon--grey:hover {
+			    
+			    color: #39424E !important;
+			    transition: color 0.3s ease 0s;
+			}
+			.challenges-list-view:hover .icon--grey
+			{
+			color: #979FAF;
+			transition: color 0.6s ease 0s;
+			}
+		/*———————— Card animation effects ————————*/	
+			/*-- Title animation --*/
+				.challengecard-title a{
+					color: #979FAF;
+					font-weight: 600;
+					text-decoration: none;
+					font-family: "Whitney SSm A","Whitney SSm B",verdana,"Lucida Grande",sans-serif;
+					font-family: 'Roboto Condensed', sans-serif;
+					font-size: 21px;
+				}
+				.challenges-list-view:hover  .challengecard-title .title-link{
+			    color: #2EC866 !important;
+			    text-decoration: none;
+			    transition: color 0.4s ease 0s;
+				}
+			/*-- Border item animation --*/	 
+				.challenges-list-view{
+				transition: color 0.6s ease 0s;	
+				}
+				.challenges-list-view:hover{
+					-webkit-box-shadow: 0px 0px 6px 0px rgba(38,153,153,0.36);
+					-moz-box-shadow: 0px 0px 6px 0px rgba(38,153,153,0.36);
+					box-shadow: 0px 0px 6px 0px rgba(38,153,153,0.36);
+					transition: color 0.6s ease 0s;
+				}
+		/*———————— Zeta (grey coloring) ————————*/
+			/*-- Light grey colors--*/
+				.zeta {
+				    color: #979FAF;
+				    font-weight: 600;
+				    font-size: 14.4px;
+				}
+			/*-- Dark grey colors--*/
+				span.zeta-data
+				{	
+					margin-right:7px;
+					
+					font-size: 14.4px;
+					font-weight: bold;
+					color:#39424E !important;
+				}
+	.msB{margin-bottom:15px;}
+/*-------------------------------------------------------- LESSON (COURSE MAIN) PAGE Sidebar course list ----------starts @ line ~337----------------------------------------------------------------------------------------------*/
+
+
+
+/*======================================================== LESSON (COURSE MAIN) PAGE pagination =========== ends @ line ~=======================================================================================================*/
+	/*-- Main pagination settings per link --*/
+		.pagination a {
+		    float: left;
+		    text-align: center;
+		    margin: 0px 5px;
+		    min-width: 26px;
+		    padding: 2px 8px;
+		    height: 35px;
+		    width: 30px;
+		    color: #39424E;
+		    line-height: 30px;
+		    text-decoration: none;
+		    background: #EFEFEF -moz-linear-gradient(center top , #FAFAFA, #EFEFEF) repeat scroll 0% 0% padding-box;
+		    border-width: 1px;
+		    border-style: solid;
+		    border-color: #C2C7D0 #C2C7D0 #979FAF;
+		    -moz-border-top-colors: none;
+		    -moz-border-right-colors: none;
+		    -moz-border-bottom-colors: none;
+		    -moz-border-left-colors: none;
+		    border-image: none;
+		    border-radius: 3px;
+		    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+		}
+	/*-- Pagination positioning--*/
+		.pagination li {
+		    display: inline;
+		}
+		.challengeslist_pagination-wrapper .pagination {
+		    padding: 15px 0px;
+		}
+		.pagination ul {
+		    display: inline-block;
+		    text-align: center;
+		    margin-top:  auto 20px !important;
+		}
+	/*-- ".active" Active pagination setting --*/
+		.pagination .active a {
+		    background: #2EC866 none repeat scroll 0% 0%;
+		    color: #FFF;
+		    border: 1px solid #26A655;
+		    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+		    transition: color 0.3s ease 0s;
+		}
+		.pagination .active a, .pagination a:active {
+		    cursor: default;
+		    background: #2EC866 none repeat scroll 0% 0% !important;
+		    color: #FFF;
+		    border: 1px solid #26A655;
+		    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+		    transition: color 0.3s ease 0s;
+		}
+	/*-- Normal pagination links--*/
+		.pagination a:hover {
+		    background-color: #FBFBFB;
+		    background-image: -moz-linear-gradient(center top , #FBFBFB, #FBFBFB);
+		}
+		.disabled, a.disabled {
+		    opacity: 0.3;
+		    cursor: default;
+		}
+/*-------------------------------------------------------- LESSON (COURSE MAIN) PAGE pagination ----------starts @ line ~337----------------------------------------------------------------------------------------------*/
+
+
+
+
+/*												_________		______
+								|\		  /|	|		|		|     \ 		/\			|
+								| \		 / |	|		|		|     |		   /  \			|
+								|  \	/  |	|		|		|     |		  /----\ 	 	|
+								|	\  /   |	|		|    	|	  |		 / 	    \		|
+								|    \/	   |	|_______|		|_____/		/        \		|______
+
+*/
+
+
+
+
+/*======================================================== Modal Window (Login/Register) =========== ends @ line ~=======================================================================================================*/
+	/*-- Positioning Overlay backdrop--*/
+		.modal-above{
+			z-index:1050 !important;
+		}
+		.modal-dialog{
+			    margin: 5px auto;
+			    
+		}
+		.modal-backdrop, .hr-dialog, .modal-backdrop.fade.in, .fade.in.hr-dialog {
+		    opacity: 1;
+		    transition: color 1.3s ease 0s;
+		}
+		.modal-backdrop, .hr-dialog {
+		    position: relative;
+		    top: 0px;
+		    right: 0px;
+		    bottom: 0px;
+		    left: 0px;
+		    background-image: url("../images/hr-dialog-border.png");
+		    height: 100%;
+		    width: 100%;
+		    z-index: 1040;
+		}
+	/*-- ".hr-dialog" Positioning Modal in the window--*/
+		/*———————— Hr-dialog general settings ————————*/
+			.hr-dialog .hr-dialog-border {
+			    padding: 5px;
+			}
+			.hr-dialog-body .homepage_admin {/*--COMMENT:-- positiioning the content of the dialog inside itself*/
+			    border: 1px solid #C2C7D0;
+			    margin-bottom: 5px;
+			    margin-top: 70px;
+			}
+			.homepage_admin {/*--COMMENT:-- making it fit inside itself*/
+			    background: #FFF none repeat scroll 0% 0%;
+			    width: auto;
+			    margin: 60px auto 30px;
+			    padding: 30px;
+			    padding-top:0px;
+			    position: relative;
+			}
+		/*———————— Hr-dialog-header ————————*/
+			.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-header {
+			    color: #39424E;
+			    font-weight: bold;
+			    line-height: 1em;
+			    background: #F8F9FA none repeat scroll 0% 0%;
+			    padding: 15px 10px;
+			    min-height: 10px;
+			    border-bottom: 1px solid #C2C7D0;
+			}
+			.hr-dialog-header a{
+				transition: all 0.3s ease 0.1s;
+				-webkit-transform: translateZ(0);
+			}
+			.hr-dialog-header button i{
+				position:relative;
+				top:-10px;
+			}
+			.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-header a.close i {
+			    top: -5px;
+			}
+		/*———————— Hr-dialog-body ————————*/
+			/*== Genral settings==*/
+				.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-body {
+				    padding: 10px;
+				    color: #39424E;
+				    background: #FFF none repeat scroll 0% 0%;
+				}
+			/*== ".btn-primary:not(.btn-flat)"  login and register buttons==*/
+				.btn-primary:not(.btn-flat), 
+				.btn-green:not(.btn-flat), 
+				.btn-inverse:active .btn-inverse.active:not(.btn-flat), 
+				.btn-green:not(.btn-flat), 
+				.btn-inverse:active .btn-inverse.active:not(.btn-flat) {
+				    border-color: #088837 #088837 #007827;
+				    opacity: 0.8;
+				    background-color: #2EC866;
+				    color:white;
+				    font-weight: bold;
+				    transition: all 0.3s ease 0.1s;
+				    background-image: -moz-linear-gradient(center top , #2EC866, #29B35B);
+				    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 
+				    			0px 1px 1px rgba(255, 255, 255, 0.1) inset, 
+				    			0px -1px 4px rgba(32, 138, 70, 0.3) inset;
+				}
+				.btn-primary:not(.btn-flat):hover{
+					background-color: #1DB755;  
+					opacity: 1;
+					transition: all 0.3s ease 0.1s;
+				}
+		/*———————— Hr-dialog-footer ————————*/
+			/*== General footer settings ==*/
+				.hr-dialog .hr-dialog-border .hr-dialog-main-window .hr-dialog-footer {
+				    text-align: right;
+				    padding: 0px;
+				    background: #FFF none repeat scroll 0% 0%;
+				}
+			/*== Social buttons settings ==*/
+				.btn-google, .btn-google:hover, .btn-google:active {
+				    background: #DD4B39 none repeat scroll 0% 0%;
+				    color: #FFF;
+				}
+				.btn-social {
+				    display: inline-block;
+				    padding: 0px 10px 0px 0px;
+				    height: 40px;
+				    border: medium none;
+				    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+				    text-align: left;
+				}
+				.btn-facebook, .btn-facebook:hover, .btn-facebook:active {
+				    background: #3B5998 none repeat scroll 0% 0%;
+				    color: #FFF;
+				}
+				.btn-twitter, .btn-twitter:hover, .btn-twitter:active {
+				    background: #55ACEE none repeat scroll 0% 0%;
+				    color: #FFF;
+				}
+				.btn-social i {
+				    background: rgba(0, 0, 0, 0.075) none repeat scroll 0% 0% padding-box;
+				    display: inline-block;
+				    padding: 0px 4px 0px 8px;
+				    margin-right: 8px;
+				    border-radius: 5px 0px 0px 5px;
+				    top: 0px;
+				    line-height: 40px;
+				}
+				.homepage_signupgroup--social{
+					
+				
+				}
+				.homepage_logingroup--social{
+					position:relative;
+					top:20px;
+				}
+	/*-- Shared for both tabs content --*/
+		.alert.error, 
+		.error.message, 
+		.error.notification, 
+		.alert.alert-error, 
+		.alert-error.message,
+		.message.error, 
+		.alert-error.notification {
+		    background: rgba(246, 80, 57, 0.05) none repeat scroll 0% 0%;
+		    border-color: #F65039;
+		    color: #F1270B;
+		}
+		.alert{
+			margin-top:5px;
+			margin-bottom:2px;
+		}
+		.formgroup
+		 {
+
+		    margin-bottom: 1px;
+		    margin-top: 1px;
+		}
+		.boundT {
+			margin-top: 2px;
+			padding-top: 2px;
+			padding-bottom: 1px;
+			font-size: 16px;
+			color:#979FAF;
+		    border-top: 1px solid #C2C7D0;
+		}
+	/*-- Just tabs for switching--*/
+		ul.horizontal li, ol.horizontal li {
+		    display: inline;
+		}
+		.homepage_admin .login_tab .toggle.active {
+		    border-bottom: 1px solid #FFF;
+		    transition: all 0.6s ease 0.3s;
+		    background: #FFF none repeat scroll 0% 0%;
+		    z-index: 20;
+		}
+		.homepage_admin .login_tab .login-toggle.active {
+			transition: all 0.6s ease 0.3s;
+		    box-shadow: -2px -1px 3px rgba(0, 0, 0, 0.05);
+		}
+		.homepage_admin .login_tab .toggle a {
+		    position: absolute;
+		    top: 0px;
+		    left: 0px;
+		    right: 0px;
+		    bottom: 0px;
+		    line-height: 60px;
+		    color: #979FAF;
+		}
+		.homepage_admin .login_tab .toggle {
+	    position: absolute;
+	    top: -80px;
+	    font-family: "Whitney SSm A","Whitney SSm B",verdana,"Lucida Grande",sans-serif;
+	    padding: 20px 20px;
+	    width: 255px;
+	    height: 80px;
+	    font-size: 20px;
+	    font-weight: 700;
+	    color: #444;
+	    text-align: center;
+	    border: 1px solid #C2C7D0;
+	    background: #FAFAFA none repeat scroll 0% 0%;
+	    z-index: 10;
+	    transition: all 0.6s ease 0.3s;
+		}
+	/*-- Login tab settings --*/
+		.homepage_admin .login_tab .login-toggle {/*-- COMMENT: Positions the tabs fo they align with the border body --*/
+		    right: -1px;
+		}
+	/*-- Sign up tab settings --*/
+		.homepage_admin .login_tab .signup-toggle {
+		    left: -1px;
+		}
+		.homepage_signupgroup--legacy{
+			margin-top:5px !important;
+		}
+	/*-- .btn-link --*/
+		.btn-text, 
+		.btn-link {
+		    background: transparent none repeat scroll 0% 0%;
+		    border: medium none;
+		    box-shadow: none;
+		    color: #979FAF;
+		    cursor: pointer;
+		    font-size: inherit;
+		    font-weight: inherit;
+		    padding: 10px 0px;
+		    text-decoration: underline !important;
+		   
+		}
+		.btn-link:focus, 
+		.btn-link:hover {
+		    color: #23527C;
+		    text-decoration: underline;
+		    background-color: transparent;
+		    
+		}
+		.signup-button{
+			z-index:80;
+		}
+	/*-- INput Positioning --*/
+		.legacy-form .rose input {
+		    display: block;
+		    padding: 10px 10px 10px 30px;
+		    height: auto;
+		    z-index: 80;
+		   
+
+		}
+
+		.legacy-form .rose div.first-left{
+			margin-top:40px;
+			position: relative;
+		   left:-45px;
+		      z-index: 70;
+		   
+		}
+		.legacy-form .rose div.first-right{
+			position: relative;
+		    margin-top:40px;
+		   left:25px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.left{
+			position: relative;
+		    top: -28px;
+		   left:-45px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.right{
+			position: relative;
+		    top: -28px;
+		   left:25px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.last-left{
+			position: relative;
+		    top: -56px;
+		   left:-45px;
+		   z-index: 70;
+		}
+		.legacy-form .rose div.last-right{
+			position: relative;
+		    top: -56px;
+		   left:25px;
+		   z-index: 70;
+		}
+		#recaptcha_widget_div{
+			position:relative;
+			top: -56px ;
+			left:-45px;
+			
+			 z-index: 1;
+
+		}
+		#btn-signup
+		{
+			}
+		.row-adjust{
+			position:relative;
+			top:-45px !important;
+		}
+		.legacy-form .rose i.glyphicon {
+		    position: relative;
+		    top: 38px;
+		    left: 5px;
+			z-index: 90;
+		    bottom: 1px;
+		    padding-top: 4px;
+		    width: 20px;
+		    font-size: 20px;
+		    border-radius: 4px 0px 0px 4px;
+		    text-align: center;
+		    color: #979FAF;
+		}
+/*-------------------------------------------------------- END of Modal Window (Login/Register) ----------starts @ line ~337----------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*											______		_______		_________
+								|			|			|			|		|		|\    |
+								|			|			|			|		|		| \   |
+								|			|---- 		|-----|		|		|		|  \  |
+								|			|			   	  |		|		|		|   \ |
+								|_____ 		|_____		______|		|_______|		|    \|
+
+*/
+
+/*======================================================== Lesson single page =========== ends @ line ~=======================================================================================================*/
+	/*-- Text before tabs--*/
+		.avatar {
+		    border-radius: 5px;
+		    margin-right: 5px;
+		}
+	/*-- Tab positioning settings --*/
+		.nav-tabs > li {
+		    line-height: 40px;
+		}
+		.nav-tabs:not(.ungroup) {
+		    margin-bottom: 20px;
+		    padding: 10px;
+		    background: #F8F9FA none repeat scroll 0% 0%;
+		    border: 1px solid #C2C7D0;
+		}
+		.nav-tabs > li {
+		    margin-bottom: -1px;
+		    position:relative;
+		    top:10px;
+		}
+		.nav-tabs > li, 
+		.nav-pills > li {
+		    float: left;
+		}
+	/*-- Tab link settings --*/
+		/*———————— ".nav-tabs:not(.ungroup)" settings ————————*/
+			.nav-tabs:not(.ungroup) > li:not(.no-tab) a {
+			    padding: 10px 20px 20px;
+			    margin-right: 40px;
+			    transition: all 0.3s ease 0.1s;
+			    border: 1px solid transparent;
+			    position:relative;
+			    top:5px;
+			}
+			
+			.nav-tabs:not(.ungroup) > li.active a, 
+			.nav-tabs:not(.ungroup) > li.active:hover a {
+			    color: #39424E;
+			    background: #FFF none repeat scroll 0% 0%;
+			    border-radius: 0px;
+			    transition: all 0.3s ease 0.1s;
+			    border-color: #C2C7D0 #C2C7D0 #FFF;
+			}
+		/*———————— ".nav-tabs" settings ————————*/
+			.nav-tabs > li a {
+			    color: #979FAF;
+			    font-weight: 600;
+			    font-size: 14px;
+			    padding: 10px 15px;
+			    margin-bottom: -1px;
+			    font-weight: bold;
+			    border-radius: 0px !important;
+			}
+			.nav-tabs > li a:hover {
+			    color: #39424E;
+			    font-weight: bold;
+			    transition: all 0.3s ease 0.1s;
+			    background-color:transparent;
+			}
+	/*-- content-text main fields --*/
+		.content-text p, 
+		.content-text li, 
+		.content-text blockquote, 
+		.content--text p, 
+		.content--text li, 
+		.content--text blockquote {
+		    margin-bottom: 1em;
+		    font-size: 18px;
+		}
+		code {
+		    padding: 3px;
+		    background: #F8F8F8 none repeat scroll 0% 0%;
+		    font-size: 1em;
+		    color: #F65039;
+		}
+		pre {
+		    display: block;
+		    margin: 0px 0px 9px;
+		    font-size: 14px;
+		    line-height: 18px;
+		    word-break: break-all;
+		    word-wrap: break-word;
+		    white-space: pre-wrap;
+		    color: #454C59;
+		    background: #FFF none repeat scroll 0% 0%;
+		    padding: 20px;
+		    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+		    border: 1px solid #C2C7D0;
+		}
+	/*-- Sidebar settings --*/
+		.challenge-sidebar-container .related-topics p{
+			font-weight: bold;
+			font-size: 18px;
+			}
+			.challenge-sidebar-container .related-topics a{
+				text-decoration: none;
+			}
+			.challenge-sidebar-container .related-topics a:hover{
+				text-decoration: none;
+			}
+	/*-- Social share link --*/
+		/*———————— General share links ————————*/
+			.share_link, 
+			.share_link a {
+			    color: #FFF;
+			    display: inline-block;
+			    padding: 0.5em 0px;
+			    cursor: pointer;
+			    font-size: 18px !important;
+			    transition: all 0.3s ease 0.1s;
+			}
+
+			.share_link, 
+			.share_link a:hover i {
+			    color: #FFF !important;
+			    display: inline-block;
+			    padding: 0.5em 0px;
+			    cursor: pointer;
+			    font-size: 20px !important; 
+			    transition: all 0.3s ease 0.1s;
+			}
+			.share {
+			    font-size: 18px;
+			    line-height: 1.5em;
+			    margin: 0px;
+			    font-weight: bold;
+			}
+		/*———————— Facebook share links ————————*/
+			.share_facebook {
+			    background: #3B5998 none repeat scroll 0% 0%;
+			    -webkit-font-smoothing: antialiased;
+			}
+			.share_facebook:hover {
+			    background: #2D4373 none repeat scroll 0% 0%;
+			    -webkit-font-smoothing: antialiased;
+			}
+		/*———————— Twitter share links ————————*/
+			.share_twitter {
+			    background: #55ACEE none repeat scroll 0% 0%;
+			    -webkit-font-smoothing: antialiased;
+			}
+
+			.share_twitter:hover {
+			background-color: #2795E9;
+			}
+		/*———————— Google+ share links ————————*/
+			.share_gplus {
+			    background: #DD4B39 none repeat scroll 0% 0%;
+			    -webkit-font-smoothing: antialiased;
+			}
+			.share_gplus:hover {
+			background-color: #C23321;
+			}
+
+
+/*-------------------------------------------------------- Lesson single page ----------starts @ line ~337----------------------------------------------------------------------------------------------*/
+
+
+
+
+/*======================================================== Front Page - Diamond Grid =========== ends @ line ~=======================================================================================================*/
+	/*-- Grid general positioning --*/
+		.diamond-grid {
+		padding: 20px;
+		padding-bottom: 40px;
+		margin: 0px auto;
+		padding-right: 10px;
+		clear:both;
+		}
+		ul.diamond-list li {
+		    list-style: none;
+		    float: left;
+		    margin-left: 66px;
+		    margin-top: 20px;
+		}
+		.diamond-grid li{
+			overflow:hidden;
+			padding:8px;
+			-webkit-transform: rotate(45deg);
+		    -moz-transform: rotate(45deg);
+		    -ms-transform: rotate(45deg);
+		    -o-transform: rotate(45deg);
+		    transform: rotate(45deg);
+		    transition: all 0.3s ease 0.3s;
+		}
+	/*-- Grid general positioning --*/
+		.diamond {
+		    height: 160px;
+		    width: 160px;
+		    color: #fff;
+		    display: block;
+		    overflow: hidden;
+		    position: relative;
+		    text-decoration: none;
+		    background-color: transparent;
+		    border: 1px solid rgb(33,33,33);
+		    transition: all 0.3s ease 0.3s;
+		    -webkit-backface-visibility: hidden;
+		  	backface-visibility: hidden;
+		}
+	/*-- Text settings --*/
+		.txt{
+			display: none;
+		}
+		.diamond-overlay{
+		transition: background-image 0.2s ease 0.1s;
+		}
+		.text {
+		    width: 170px;
+		    height: 170px;
+		    color:#f5f5f5;
+		    font-family: 'Open Sans', sans-serif;
+		    font-family: 'Exo 2', sans-serif;
+		    font-size: 18px;
+		    font-weight: 600;
+		    text-transform: uppercase;
+		    padding: 0 10px;
+		    vertical-align: middle;
+		     display: table-cell;
+		    -webkit-transform: rotate(-45deg);
+		    -moz-transform: rotate(-45deg);
+		    -ms-transform: rotate(-45deg);
+		    -o-transform: rotate(-45deg);
+		    transform: rotate(-45deg);
+		    text-align: center;
+		}
+	/*======================================================== Rectangle Grid Sistem =========== ends @ line ~=======================================================================================================*/
+	/*---------ROW PLACEMENTS ---------*/
+		/*———————— GRID 5 ROW(max-17) sistem 3-4-3-4-3 settings ————————*/
+			/*==== ROW 1 - 3 Blocks(1-3) ====*/
+				.diamond-grid > li:nth-child(1) {/*--Leader element--*/
+				   margin-left: 182px;
+				    margin-top: -5px;
+				}
+				.diamond-grid > li:nth-child(2) {
+				   margin-left: 63px;
+				    margin-top: -5px;
+				}
+				.diamond-grid > li:nth-child(3) {
+				   margin-left: 63px;
+				    margin-top: -5px;
+				}	
+			/*==== ROW 2 - 4 Blocks(4-7) ====*/
+				.diamond-grid > li:nth-child(4) {
+				   margin-left: 62px;
+				   margin-top: -47px;
+				   clear:both;
+				}
+				.diamond-grid > li:nth-child(5) {
+				   margin-left: 63px;
+				   margin-top: -47px;
+				}
+				.diamond-grid > li:nth-child(6) {
+				   margin-left: 63px;
+				   margin-top: -47px;
+				}
+				.diamond-grid > li:nth-child(7) {
+				   margin-left: 63px;
+				   margin-top: -47px;   
+				}
+			/*==== ROW 3 - 3 Blocks(8-10)  ====*/
+				.diamond-grid > li:nth-child(8) {
+				   margin-left: 182px;
+				   margin-top: -48px;
+				   clear:both;
+				}
+				.diamond-grid > li:nth-child(9) {
+					   margin-left: 63px;
+					   margin-top: -47px; 	
+				}
+				.diamond-grid > li:nth-child(10) {
+					   margin-left: 63px;
+					   margin-top: -47px;   	
+				}
+			/*==== ROW 4 - 4 Blocks(11-14)  ====*/
+				.diamond-grid > li:nth-child(11) {
+					   margin-left: 63px;
+					   margin-top: -48px;
+					   	clear:both;
+				}
+				.diamond-grid > li:nth-child(12) {
+					   margin-left: 63px;
+					   margin-top: -49px;   	
+				}
+				.diamond-grid > li:nth-child(13) {
+					   margin-left: 63px;
+					   margin-top: -49px;   	
+				}
+				.diamond-grid > li:nth-child(14) {
+					   margin-left: 63px;
+					   margin-top: -49px;   	
+				}
+			/*==== ROW 5 - 3 Blocks(15-17)  ====*/
+				.diamond-grid > li:nth-child(15) {
+					margin-left: 183px;
+					margin-top: -49px;
+					clear:both;
+				}
+				.diamond-grid > li:nth-child(16) {
+					margin-left: 63px;
+				    margin-top: -47px;
+				}
+				.diamond-grid > li:nth-child(17) {
+					margin-left: 63px;
+				    margin-top: -47px;
+				}
+		/*———————— GRID 5 ROW(19) sistem 3-4-5-4-3 settings ————————*/
+			/*==== ROW 1 - 3 Blocks(1-3) ====*/
+				.diamond-grid > li:nth-child(1) {/*--Leader element--*/
+				   margin-left: 182px;
+				    margin-top: -5px;
+				}
+				.diamond-grid > li:nth-child(2) {
+				   margin-left: 63px;
+				    margin-top: -5px;
+				}
+				.diamond-grid > li:nth-child(3) {
+				   margin-left: 63px;
+				    margin-top: -5px;
+				}	
+			/*==== ROW 2 - 4 Blocks(4-7) ====*/
+				.diamond-grid > li:nth-child(4) {
+				   margin-left: 62px;
+				   margin-top: -47px;
+				   clear:both;
+				}
+				.diamond-grid > li:nth-child(5) {
+				   margin-left: 63px;
+				   margin-top: -47px;
+				}
+				.diamond-grid > li:nth-child(6) {
+				   margin-left: 63px;
+				   margin-top: -47px;
+				}
+				.diamond-grid > li:nth-child(7) {
+				   margin-left: 63px;
+				   margin-top: -47px;   
+				}	
+			/*==== ROW 3 - 5 Blocks(8-12) ====*/
+				.diamond-grid > li:nth-child(8) {
+				   margin-left: -58px;
+				   margin-top: -48px;
+				   clear:both;
+				}
+				.diamond-grid > li:nth-child(9) {
+					   margin-left: 63px;
+					   margin-top: -47px;
+					   	
+				}
+				.diamond-grid > li:nth-child(10) {
+					   margin-left: 63px;
+					   margin-top: -47px;
+					   	
+				}
+				.diamond-grid > li:nth-child(11) {
+					   margin-left: 63px;
+					   margin-top: -47px;
+					   clear:none;
+					   	
+				}
+				.diamond-grid > li:nth-child(12) {
+					   margin-left: 63px;
+					   margin-top: -47px;
+					   	
+				}
+			/*==== ROW 4 - 4 Blocks(13-16) ====*/
+				.diamond-grid > li:nth-child(13) {
+					   margin-left: 63px;
+					   margin-top: -49px;  
+					   clear:both; 	
+				}
+				.diamond-grid > li:nth-child(14) {
+					   margin-left: 63px;
+					   margin-top: -49px;   	
+				}
+				.diamond-grid > li:nth-child(15) {
+					margin-left: 63px;
+				    margin-top: -47px;
+				    clear:none;
+				}
+				.diamond-grid > li:nth-child(16) {
+					margin-left: 63px;
+				    margin-top: -47px;
+				}
+			/*==== ROW 5 - 3 Blocks(8-12) ====*/
+				.diamond-grid > li:nth-child(17) {
+					margin-left: 183px;
+					margin-top: -49px;
+					clear:both;
+				}
+				.diamond-grid > li:nth-child(18) {
+					margin-left: 63px;
+				    margin-top: -47px;
+				    clear:none;
+				}
+				.diamond-grid > li:nth-child(19) {
+					margin-left: 63px;
+				    margin-top: -47px;
+				}
+		/*———————— GRID 5 ROW(19) sistem 3-4-5-4-3 settings ————————*/
+			/*==== ROW 1 - 1 Blocks(1) ====*/
+				.diamond-grid > li:nth-child(1) {/*--Leader element--*/
+				   margin-left: 430px;
+				    margin-top: 5px;
+				    clear:both;
+				}
+			/*==== ROW 2 - 2 Blocks(2-3) ====*/
+				.diamond-grid > li:nth-child(2) {
+				   margin-left: 306px;
+				    margin-top: -52px;
+				    clear:both;
+				}
+				.diamond-grid > li:nth-child(3) {
+				   margin-left: 72px;
+				   margin-top: -52px;
+				}
+			/*==== ROW 3 - 3 Blocks(4-6) ====*/
+				.diamond-grid > li:nth-child(4) {
+				  margin-left: 184px;
+				    margin-top: -50px;
+				    clear:both;
+				}	
+				.diamond-grid > li:nth-child(5) {
+				   margin-left: 70px;
+				   margin-top: -50px;
+				}
+				.diamond-grid > li:nth-child(6) {
+				   margin-left: 70px;
+				   margin-top: -50px;
+				}
+			/*==== ROW 4 - 4 Blocks(7-10) ====*/
+				.diamond-grid > li:nth-child(7) {
+				   margin-left: 61px;
+				   margin-top: -49px;
+				   clear:both;
+				}
+				
+				.diamond-grid > li:nth-child(8) {
+				   margin-left: 70px;
+				   margin-top: -49px;
+				   clear:none;
+				}
+				.diamond-grid > li:nth-child(9) {
+				   margin-left: 70px;
+				   margin-top: -49px;   
+				}	
+				.diamond-grid > li:nth-child(10) {
+				   margin-left: 70px;
+				   margin-top: -49px;   
+				}
+			/*==== ROW 5 - 5 Blocks(11-15) ====*/
+				.diamond-grid > li:nth-child(11) {
+				   margin-left: -64px;
+				   margin-top: -50px;
+				   clear:both;
+				}
+				.diamond-grid > li:nth-child(12) {
+					   margin-left: 72px;
+					   margin-top: -50px;
+					   	clear:none;
+				}
+				.diamond-grid > li:nth-child(13) {
+					   margin-left: 70px;
+					   margin-top: -50px;
+					   	clear:none;
+				}
+				.diamond-grid > li:nth-child(14) {
+					   margin-left: 70px;
+					   margin-top: -50px;
+					   	clear:none;
+				}
+				.diamond-grid > li:nth-child(15) {
+					   margin-left: 70px;
+					   margin-top: -50px;
+					   clear:none;
+				}
+			/*==== ROW 6 - 4 Blocks(16-19) ====*/
+				.diamond-grid > li:nth-child(16) {
+					   margin-left: 60px;
+					   margin-top: -49px;  
+					   clear:both; 	
+				}
+				.diamond-grid > li:nth-child(17) {
+					   margin-left: 70px;
+					   margin-top: -49px;
+					   clear:none;   	
+				}
+				.diamond-grid > li:nth-child(18) {
+					margin-left: 70px;
+				    margin-top: -47px;
+				    clear:none;
+				}
+				.diamond-grid > li:nth-child(19) {
+					margin-left: 70px;
+				    margin-top: -47px;
+				    clear:none;
+				}
+			/*==== ROW 7 - 3 Blocks(20-22) ====*/
+				.diamond-grid > li:nth-child(20) {
+					margin-left: 183px;
+					margin-top: -51px;
+					clear:both;
+				}
+				.diamond-grid > li:nth-child(21) {
+					margin-left: 70px;
+				    margin-top: -51px;
+				    clear:none;
+				}
+				.diamond-grid > li:nth-child(22) {
+					margin-left: 70px;
+				    margin-top: -51px;
+				}			
+			/*==== ROW 8 - 2 Blocks(23-24) ====*/
+				.diamond-grid > li:nth-child(23) {
+					margin-left: 306px;
+					margin-top: -52px;
+					clear:both;
+				}
+				.diamond-grid > li:nth-child(24) {
+				   margin-left: 70px;
+				   margin-top: -52px;
+				}
+			/*==== ROW 9 - 3 Blocks(8-12) ====*/
+				.diamond-grid > li:nth-child(25) {/*--Leader element--*/
+				   margin-left: 430px;
+				    margin-top: -52px;
+				    clear:both;
+				}
+	/*--Single block images general settings--*/
+		#css3, #jquery, 
+		#php, #ruby, 
+		#angularjs, #backbonejs, 
+		#codeigniter, #bootstrap,
+		#wordpress, #joomla,
+		#android,#spring, #java,
+		#photoshop, #illustrator, 
+		#seo
+		{
+			position: relative;
+			overflow: hidden;
+			
+		}
+		#css3:before, #jquery:before, 
+		#php:before, #ruby:before, 
+		#angularjs:before, #backbonejs:before, 
+		#codeigniter:before, #bootstrap:before,
+		#java:before, #wordpress:before,
+		#joomla:before,	#android:before,
+		#spring:before,	#photoshop:before,
+		#illustrator:before, #seo:before
+		{
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			content: "";
+			background-position: center;
+			position: absolute;
+			z-index: -1;
+			-webkit-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+		}
+	/*--Single block images positioning--*/
+		#css3:before{ 
+			width: 300%;
+			height: 200%;
+			top: -30%;
+			left: -85%;
+			background-position: center;
+			background: url('../images/css3.jpg') 0 0 repeat;	
+		}
+		#jquery:before{
+			width: 300%;
+			height: 200%;
+			top: -90%;
+			left: -10%;
+			background-position: center;
+			background: url('../images/jquery.png') 0 0 no-repeat;
+		}
+		#php:before{
+			width: 300%;
+			height: 200%;
+			top: -60%;
+			left: -30%;
+			
+			background-position: center;
+			background: url('../images/php.png') 0 0 no-repeat;
+		}
+		#ruby:before{
+			width: 200%;
+			height: 200%;
+			top: -30%;
+			left: -10%;
+			background-position: center;
+			background: url('../images/ruby.png') 0 0 no-repeat;
+		}
+		#angularjs:before{
+			width: 200%;
+			height: 200%;
+			top: -50%;
+			left: 20%;
+			background-position: center;
+			background: url('../images/angularjs.png') 0 0 no-repeat;
+		}
+		#backbonejs:before{
+			width: 200%;
+			height: 200%;
+			top: -45%;
+			left: 10%;
+			
+			background: url('../images/backbone.png') 0 0 no-repeat;
+		}
+		#codeigniter:before{
+			width: 200%;
+			height: 200%;
+			top: -35%;
+			left: 0%;
+			background-position: center;
+			background: url('../images/codeigniter.png') 0 0 no-repeat;
+		}
+		#bootstrap:before{
+			width: 200%;
+			height: 200%;
+			top: -45%;
+			left: 30%;
+			background: url('../images/bootstrap.png') 0 0 no-repeat;
+		}
+		#java:before{
+			width: 200%;
+			height: 200%;
+			top: -55%;
+			left: -0%;
+			background: url('../images/java.gif') 0 0 no-repeat;
+		}
+		#wordpress:before{
+			width: 200%;
+			height: 200%;
+			top: -45%;
+			left: -20%;
+			background: url('../images/wp.png') 0 0 no-repeat;
+		}
+		#joomla:before{
+			width: 200%;
+			height: 200%;
+			top: -55%;
+			left: -0%;
+			background: url('../images/joomla.png') 0 0 no-repeat;
+		}
+		#android:before{
+			width: 200%;
+			height: 200%;
+			top: -35%;
+			left: 0%;
+			background: url('../images/android.png') 0 0 no-repeat;
+		}
+		#spring:before{
+			width: 200%;
+			height: 200%;
+			top: -25%;
+			left: -5%;
+			background: url('../images/spring.png') 0 0 no-repeat;
+		}
+		#photoshop:before{
+			width: 200%;
+			height: 200%;
+			top: -45%;
+			left: -10%;
+			background: url('../images/photoshop.png') 0 0 no-repeat;
+		}
+		#illustrator:before{
+			width: 200%;
+			height: 200%;
+			top: -55%;
+			left: -0%;
+			background: url('../images/illustrator.gif') 0 0 no-repeat;
+		}
+		#seo:before{
+			width: 200%;
+			height: 200%;
+			top: -55%;
+			left: -0%;
+			background: url('../images/seo.png') 0 0 no-repeat;
+		}
+	/*-- Inner collapse animation --*/
+		/*==== Rectangle Out ====*/
+			.hvr-rectangle-out {
+			  display: inline-block;
+			  vertical-align: middle;
+			  -webkit-transform: translateZ(0);
+			  transform: translateZ(0);
+			  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+			  -webkit-backface-visibility: hidden;
+			  backface-visibility: hidden;
+			  position: relative;
+			-moz-osx-font-smoothing: grayscale;
+			  background-image:url('../Images/portfolio-overlay.png');
+			  -webkit-transition-property: color;
+			  transition-property: color;
+			  -webkit-transition-duration: 0.6s;
+			  transition-duration: 0.6s;
+			  opacity: 0.95;
+			}
+
+
+			.hvr-rectangle-out:before {
+			  content: "";
+			  position: absolute;
+			  z-index: -1;
+			  top: 0;
+			  left: 0;
+			  right: 0;
+			  bottom: 0;
+			  -moz-osx-font-smoothing: grayscale;
+			  -webkit-backface-visibility: hidden;
+			  backface-visibility: hidden;
+			  background-image:url('../Images/hover-overlay.png');
+			  -webkit-transform: scale(0);
+			  transform: scale(0);
+			  -webkit-transition-property: transform;
+			  transition-property: transform;
+			  -webkit-transition-duration: 0.5s;
+			  transition-duration: 0.5s;
+			  -webkit-transition-timing-function: ease-out;
+			  transition-timing-function: ease-out;
+			}
+
+			.hvr-rectangle-out:hover, 
+			.hvr-rectangle-out:focus, 
+			.hvr-rectangle-out:active {
+			  color: white;
+			  -moz-osx-font-smoothing: grayscale;
+			  -webkit-backface-visibility: hidden;
+			  backface-visibility: hidden;
+			}
+			.hvr-rectangle-out:hover .txt, 
+			.hvr-rectangle-out:focus .txt, 
+			.hvr-rectangle-out:active .txt{
+			  display:block !important;
+			  -webkit-transition-duration: 0.8s;
+			  transition-duration: 0.8s;
+			  -webkit-transition-timing-function: ease;
+			  transition-timing-function: ease;
+			}
+			.hvr-rectangle-out:hover:before, 
+			.hvr-rectangle-out:focus:before, 
+			.hvr-rectangle-out:active:before {
+			  -webkit-transform: scale(1);
+			  transform: scale(1);
+			}
+	/*-- top diamond selector selector --*/
+		.diamond-display-block{
+			border:1px solid #212121;
+			text-align: center;
+			font-size: 14pt;
+			font-family: 'Exo 2', sans-serif;
+			padding:10px 25px;
+			font-variant: small-caps;
+			font-weight: 600;
+			margin: 0px auto;
+			margin-bottom:50px;
+		}
+		.diamond-display-block.diamond-active, 
+		.board-icon.diamond-active{
+			background-color: #212121;
+			color:white;
+		}
+		.diamond-display-block:hover{
+		background-color: #dfdfdf;
+		cursor: pointer;
+		transition: all 0.3s ease 0.2s;
+		}
+		.diamond-display-block.diamond-active:hover{
+		background-color: #212121;
+		cursor: pointer;
+		color: #dfdfdf;
+		transition: all 0.2s ease 0.1s;
+		}
+
+		.board-icon{
+			-webkit-transform: rotate(-45deg);
+		    -moz-transform: rotate(-45deg);
+		    -ms-transform: rotate(-45deg);
+		    -o-transform: rotate(-45deg);
+		    transform: rotate(-45deg);
+		}
+
+		.padd-icon{
+			padding:9.2px 25px; 
+		}
+/*-------------------------------------------------------- Rectangle Grid Sistem ----------starts @ line ~337----------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------- Front Page - Diamond Grid ----------starts @ line ~337----------------------------------------------------------------------------------------------*/
+
+
+
+
+
+h2 {
+    font-size: 2.25em;
+    line-height: 1.33333em;
+}
+small, 
+.small, 
+.table-wrap a.table-expand, 
+.grey-text {
+    font-size: 90%;
+}
+a:hover{
+	text-decoration: none;
+	transition: all 0.3s ease 0.1s;
+}
+
+.bold{
+	font-weight: bold;
+}
+.mlB{
+	margin-bottom: 15px;
+}
+
+.block{
+	margin-top:10px !important;
+}
+
+
+
+
+
+/*======================================================== Notifications =========== ends @ line ~=======================================================================================================*/
+
+	.notif-icon{
+
+	font-size:26px;
+
+	font-size:18px; color:#2ec866;
+	margin-right:0px; 
+	color:white;
+	}
+	.notif-numb{
+		box-shadow: -1px 2px 2px green;
+		background-color:#2ec866;
+		padding:2px 5px; 
+		width:14px; 
+		height:14px; 
+		color:white;
+		position:relative;
+		font-size:16px;
+		top:4px;
+		left:10px
+
+	}
+
+
+
+
+	.notification-link{
+		cursor:pointer;
+		margin-top:18px;
+		position:relative;
+		position:relative;
+		top:1px;
+		right:1px;
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+	}
+	.notification-active{
+		cursor:pointer;
+		background-color:rgb(35,42,49);
+		padding:0px 0px 0px 0px; 
+		width:65px;
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		margin-top:32px;
+		padding-bottom:5px;
+	}
+	.header-notification{
+		background-color:none;
+		border-top:none;
+		border:none;
+		background-color:rgb(35,42,49);
+		padding:10px;
+		border-top-left-radius:10px; 
+		border-top-right-radius:0px; 
+		border-top-color:transparent;
+	}
+
+	.notification-dropdown{
+		background-color:transparent; 
+		padding:0px;
+		border-radius:10px;
+		border-top-right-radius:0px;
+		border-color:none;
+		width:400px;
+		background-color:white;
+	}
+	li.notification{
+		position:relative;
+		left:20px;
+	}
+
+
+
+	 li.notification  ul.dropdown-menu {
+	background-color:white !important;
+	border-radius:10px;
+	border-top-right-radius: 0px;
+	border-top-color:rgb(35,42,49);
+	}
+	.first-note{
+	margin-top:38px;
+	}
+	.empty-notification{
+		background-color:white;
+		min-height:50px;
+		border:2px dashed #979FAF;
+		margin:5px;
+		margin-top:45px;
+		padding-top:13px;
+		font-weight:600;
+		color:#979FAF;
+	}
+	.notification-tab{
+		background-color:white;
+		color: #979FAF;
+		min-height:50px;
+		background-color:#39424e;
+		border-top:2px solid #2ec866;
+		
+		padding:10px;
+		padding-top:13px;
+	}
+.note-information{
+		font-size:20px
+	}
+	.note-title{
+		font-size:18px
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.note-tab-padding{
+		padding:20px 50px; 
+	}
+
+
+
+.note-submeni{
+	  visibility: hidden;
+	 opacity:0;
+	 float:left;
+	 clear:right;
+	 border:1px solid grey;
+	 margin-top:15px;
+	 padding:10px;
+	 border-left:none; 
+	 padding-left:0px; 
+	 border-top-right-radius:20px;
+	 border-bottom-right-radius:20px;
+	 font-size:22px;
+
+	  
+}
+
+.note-submeni-link{
+	color:#979FAF;
+	transition: .3s ease all;
+	display:block;
+	border:1px solid trasnparent;
+	width:30px;
+	height:30px;
+	padding:5px;
+
+}
+.note-submeni-link:hover{
+	color:#2ec866;
+	transition: .3s ease all;
+}
+.note:hover + .note-submeni{
+    visibility: visible;
+    opacity:1;
+    webkit-box-shadow: 0px 0px 6px 0px rgba(38,153,153,0.36);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(38,153,153,0.36);
+    box-shadow: 0px 0px 10px 0px rgba(38,153,153,0.36);
+   transition: opacity 0.3s ease 0.3s;
+}
+.note-submeni:hover{
+	visibility: visible;
+    opacity:1;
+   transition: opacity 0.3s ease 0.3s;
+}
+
+
+.note + .note-submeni:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.note + .note-submeni:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+/*======================================================== Notifications =========== ends @ line ~=======================================================================================================*/
+
+
+
+}
+/*mozda visaak*/
+.color-red{
+	color:#cd2929;
+	font-size: 14px;f
+}
+
+
+
+.btn-category{
+	padding:10px 25px;
+	margin:0px;
+border: none;
+	width:auto;
+		transition: all 0.3s ease 0.2s;
+}
+.btn-category:hover{
+	background-color: #dfdfdf;
+		cursor: pointer;
+}
+.btn-category-active{
+	padding:10px 25px;
+	margin:0px;
+background-color: #212121;
+			color:white;
+}
+
+
+/**********************************************************************NEEEEEEEEW SHIIIIIIIIIIIIIIIIIIIET*****************************************************/
+.page-header, .page_header, #page_header {
+    background: #39424e;
+    border-bottom: 1px solid #28313d;
+    height: 70px;
+    position: relative;
+    z-index: 900;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande", sans-serif;
+    min-width: 1240px;
+
+}
+
+.page-header .nav-links>ul>li>a:not(.logo_mark), 
+.page-header .nav-links>ul>li #profile-menu a, 
+.page-header .nav-buttons>ul>li>a:not(.logo_mark), 
+.page-header .nav-buttons>ul>li #profile-menu a, 
+.page_header .nav-links>ul>li>a:not(.logo_mark), 
+.page_header .nav-links>ul>li #profile-menu a, 
+.page_header .nav-buttons>ul>li>a:not(.logo_mark), 
+.page_header .nav-buttons>ul>li #profile-menu a, 
+#page_header .nav-links>ul>li>a:not(.logo_mark), 
+#page_header .nav-links>ul>li #profile-menu a, 
+#page_header .nav-buttons>ul>li>a:not(.logo_mark), 
+#page_header .nav-buttons>ul>li #profile-menu a {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.page-header .nav-links>ul>li, 
+.page-header .nav-buttons>ul>li, 
+.page_header .nav-links>ul>li, 
+.page_header .nav-buttons>ul>li, 
+#page_header .nav-links>ul>li, 
+#page_header .nav-buttons>ul>li {
+    display: inline-block;
+    margin-right:5px;
+     margin-left:5px;
+    vertical-align: middle;
+   
+}
+.page-header .nav-buttons img, 
+.page_header .nav-buttons img,
+ #page_header .nav-buttons img {
+    width: 25px;
+
+}
+.page-header .nav-buttons .nav-admin>li:not(.dropdown-auth), 
+.page_header .nav-buttons .nav-admin>li:not(.dropdown-auth), 
+#page_header .nav-buttons .nav-admin>li:not(.dropdown-auth) {
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+   
+}
+.page-header .search_form .search-input .search-query, 
+.page_header .search_form .search-input .search-query, 
+#page_header .search_form .search-input .search-query {
+    width: 200px;
+    background: #2e363f;
+    border: 1px solid #232931;
+    box-shadow: none;
+    line-height: normal;
+    cursor: pointer;
+    margin-top:15px;
+}
+.page-header .nav-links>ul, 
+.page_header .nav-links>ul, 
+#page_header .nav-links>ul {
+    margin-top: 10px;
+    position:absolute;
+    left:10px;
+    
+}
+.page-header .nav-links .logo_mark, .page_header .nav-links .logo_mark, #page_header .nav-links .logo_mark {
+    margin-top: 10px;
+
+}
+ .page-header .nav-links,
+ .page-header .nav-buttons, 
+ .page_header .nav-links, 
+ .page_header .nav-buttons, 
+ #page_header .nav-links, 
+ #page_header .nav-buttons {
+    display: block;
+}
+
+
+
+.page-header .dropdown-auth .dropdown-menu, 
+.page_header .dropdown-auth .dropdown-menu, 
+#page_header .dropdown-auth .dropdown-menu {
+    background: #232931;
+    border-radius: 5px 0 5px 5px;
+    top: 100%;
+    padding: 10px;
+}
+
+
+.page-header .dropdown-auth .dropdown-menu ul li:not(:last-of-type) a, 
+.page_header .dropdown-auth .dropdown-menu ul li:not(:last-of-type) a, 
+#page_header .dropdown-auth .dropdown-menu ul li:not(:last-of-type) a {
+    border-bottom: 1px solid rgba(98,107,127,0.4);
+    
+}
+.page-header .dropdown-auth .dropdown-menu ul a, 
+.page_header .dropdown-auth .dropdown-menu ul a, 
+#page_header .dropdown-auth .dropdown-menu ul a {
+    padding: 8px 15px;
+    padding: 10px !important;
+}
+.page-header .dropdown-auth>div.open, 
+.page_header .dropdown-auth>div.open, 
+#page_header .dropdown-auth>div.open {
+    background: #232931;
+    opacity: 1;
+    padding:10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    border-color:#232931;
+}
+.page-header .dropdown-auth .dropdown-menu, 
+.page_header .dropdown-auth .dropdown-menu,
+#page_header .dropdown-auth .dropdown-menu {
+    background: #232931 !important;
+    border-radius: 5px 0 5px 5px;
+    top: 100% !important;
+    padding: 10px !important;
+
+    
+}
+#profile-menu > div > ul > li{
+	 padding: 7px !important;
+}
+.page_footer {
+    background: #fff;
+    border-top: 1px solid #e4e4e4;
+    padding: 15px;
+}
+
+.settings-view{
+	margin-top:10px;
+	margin-bottom:25px;
+}
+/******************************************************************************
+
+/*======================================================== GENERAL SETTTINGS =========== ends @ line ~=======================================================================================================*/
+	/*------ INPUTS -----*/
+		select,
+		textarea, 
+		input[type="text"], 
+		.fake_file_text, 
+		input[type="password"], 
+		input[type="datetime"], 
+		input[type="datetime-local"], 
+		input[type="date"], 
+		input[type="month"], 
+		input[type="time"], 
+		input[type="week"], 
+		input[type="number"], 
+		input[type="email"], 
+		input[type="url"], 
+		input[type="search"], 
+		input[type="tel"], 
+		.uneditable-input, 
+		.static-input {
+		    border: 1px solid #C2C7D0;
+		    border-radius: 5px;
+		    box-shadow: 0px 1px 2px rgba(151, 159, 175, 0.1) inset, 0px 1px 15px rgba(151, 159, 175, 0.05) inset;
+		    box-sizing: border-box;
+		    color: #39424E;
+		    display: inline-block;
+		    font-size: 16px;
+		    line-height: 1.5em;
+		    margin: 0px 0px 0px;
+		    padding: 10px 10px;
+		    transition: all 0.6s ease 0s;
+		}
+		select:focus,
+		textarea:focus, 
+		input[type="text"]:focus, 
+		.fake_file_text:focus, 
+		input[type="password"]:focus, 
+		input[type="datetime"]:focus, 
+		input[type="datetime-local"]:focus, 
+		input[type="date"]:focus, 
+		input[type="month"]:focus, 
+		input[type="time"]:focus, 
+		input[type="week"]:focus, 
+		input[type="number"]:focus, 
+		input[type="email"]:focus, 
+		input[type="url"]:focus, 
+		input[type="search"]:focus, 
+		input[type="tel"]:focus, 
+		.uneditable-input:focus, 
+		.static-input:focus {
+		    border-color: rgba(70, 145, 246, 0.7);
+		    box-shadow: 0px 0px 5px rgba(70, 145, 246, 0.5), 
+		    			0px 1px 2px rgba(151, 159, 175, 0.2) inset, 
+		    			0px 1px 15px rgba(151, 159, 175, 0.05) inset;
+		    outline: 0px none;
+		     transition: all 0.6s ease 0s;
+		}
+		
+	.cursor {
+	    cursor: pointer;
+	}
+	.block-center {
+	    box-sizing: border-box;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	
+/*-------------------------------------------------------- END GENERAL ----------starts @ line ~337----------------------------------------------------------------------------------------------*/
+	
+}
+ 

@@ -1,0 +1,16 @@
+
+body {
+  margin: 0;
+  background: #fff;
+  height: inherit;
+  color: #39424e;
+  font-weight: 500;
+  line-height: 1.4em;
+  
+}
+.color-green {
+  color: #2ec866;
+}
+.unstyled{
+	list-style-type: none;
+}

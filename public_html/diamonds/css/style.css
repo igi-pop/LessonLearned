@@ -1,0 +1,100 @@
+/*
+Tutorial Name: Shine bright like a diamond: How to Create CSS Diamond Grids
+Author: Samuel Dalusung
+*/
+
+
+/* GENERAL STYLES
+-------------------------------------------------*/
+
+body {
+    background: #3cddb9;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px dashed #fff;
+    font-size: 38px;
+    width: 700px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+
+/* DIAMOND GRIDS STYLES
+-------------------------------------------------*/
+
+.diamond-grid {
+    width: 1000px;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    margin-left: 66px;
+    margin-top: 20px;
+}
+
+.diamond {
+    height: 160px;
+    width: 160px;
+    background: transparent;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    border: 3px solid #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: color .35s linear;
+    -moz-transition: color .35s linear;
+    -o-transition: color .35s linear;
+    transition: color .35s linear;
+}
+
+.diamond:hover {
+    background: #fff;
+    color: #3cddb9;
+}
+
+.diamond-grid > li:nth-child(9n+6) {
+    margin-left: 66px;
+    margin-top: -6px;
+}
+
+.diamond-grid > li:nth-child(5) {
+    margin-left: 182px;
+}
+
+.diamond-grid > li:nth-child(n+5) {
+    margin-top: -51px;
+}
+
+.text {
+    width: 170px;
+    height: 170px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
